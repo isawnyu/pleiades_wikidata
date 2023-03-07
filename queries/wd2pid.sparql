@@ -1,0 +1,14 @@
+SELECT DISTINCT ?item ?itemLabel ?itemPID ?article WHERE {
+  ?item wdt:P1584 ?itemPID .
+  OPTIONAL {
+    ?article schema:about ?item .
+    ?article schema:isPartOf <https://en.wikipedia.org/>.
+  }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE]". }
+  {
+    SELECT DISTINCT ?item WHERE {
+      ?item p:P1584 ?statement0.
+      ?statement0 (ps:P1584) _:anyValueP1584.
+    }
+  }
+} ORDER BY ?itemLabel ?item
