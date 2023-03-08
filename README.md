@@ -1,1 +1,1 @@
-Tabular data from Wikidata entities that have a Pleiades ID property assigned. 
+Tabular data from Wikidata entities that have a Pleiades ID property assigned. Pleiades URIs for a given row can be constructed by appending the value in the `itemPID` column to the string "https://pleiades.stoa.org/places/".
