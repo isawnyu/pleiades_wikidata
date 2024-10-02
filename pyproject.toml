@@ -25,6 +25,7 @@ classifiers = [
 ]
 dependencies = [
   "airtight",
+  "encoded_csv @ https://github.com/paregorios/encoded_csv/archive/refs/heads/main.zip"
 ]
 [project.urls]
 # "Homepage" = "https://github.com/pypa/sampleproject"
