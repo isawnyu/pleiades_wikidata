@@ -74,13 +74,21 @@ POSITIONAL_ARGUMENTS = [
 ]
 
 
+class SetEncoder(json.JSONEncoder):
+    def default(self, obj):
+        if isinstance(obj, set):
+            return list(obj)
+        return json.JSONEncoder.default(self, obj)
+
+
 def main(**kwargs):
     """
     main function
     """
     # logger = logging.getLogger(sys._getframe().f_code.co_name)
+
+    # determine which pleiades places have references pointing at wikidata
     index_path = Path(kwargs["index"]).expanduser().resolve()
-    data_path = Path(kwargs["data"]).expanduser().resolve()
     with open(index_path, encoding="utf-8") as f:
         index = json.load(f)
     del f
@@ -99,20 +107,32 @@ def main(**kwargs):
         if values:
             p2w[puri] = values[0]
 
+    # determine which wikidata items point at pleiades places and note which are bidirectional
+    data_path = Path(kwargs["data"]).expanduser().resolve()
     wikidata = get_csv(data_path, dialect="excel-tab")
     logger.info(
         f"Loaded Wikidata from {data_path} ({len(wikidata['content'])} entries)"
     )
-    logger.info(f"wikidata fieldnames: {wikidata['fieldnames']}")
+    logger.debug(f"wikidata fieldnames: {wikidata['fieldnames']}")
     wikidata_dict = dict()
     wikidata_dict_index = dict()
     w2p = dict()
     bidirectional = set()
+    cited_puris = set()  # puris that have already been cited in a wikidata item
+    multicited_puris = set()
     for row in wikidata["content"]:
         wuri = row["item"]
         wikidata_dict[wuri] = row
         puri = f"https://pleiades.stoa.org/places/{row['pleiades']}"
-        w2p[wuri] = puri
+        if puri in cited_puris:
+            multicited_puris.add(puri)
+        else:
+            cited_puris.add(puri)
+        try:
+            w2p[wuri]
+        except KeyError:
+            w2p[wuri] = set()
+        w2p[wuri].add(puri)
         wikidata_dict_index[puri] = wuri
         try:
             p2w[puri]
@@ -121,17 +141,35 @@ def main(**kwargs):
         else:
             bidirectional.add(puri)
 
+    # determine and report on what we've found
     logger.info(f"Found {len(bidirectional)} bidirectional links")
     only_pleiades = set(p2w.keys()) - bidirectional
     logger.info(
         f"Found {len(only_pleiades)} additional links from Pleiades to Wikidata (out of {len(p2w)})"
     )
-    only_wikidata = set(w2p.values()) - bidirectional
+    only_wikidata = {v for subset in w2p.values() for v in subset} - bidirectional
     logger.info(
         f"Found {len(only_wikidata)} additional links from Wikidata to Pleiades (out of {len(w2p)})"
     )
+    multiple_p4w = {
+        this_wuri for this_wuri, these_puris in w2p.items() if len(these_puris) > 1
+    }
+    logger.info(
+        f"Found {len(multiple_p4w)} wikidata items that incorrectly link to more than one Pleiades place."
+    )
+    multicited = dict()
+    for this_puri in multicited_puris:
+        multicited[this_puri] = {
+            this_wuri
+            for this_wuri, these_puris in w2p.items()
+            if this_puri in these_puris
+        }
+    logger.info(
+        f"Found {len(multicited)} Pleiades places that are each linked (incorrectly) by more than one Wikidata item."
+    )
 
     output_path = Path(kwargs["output_directory"]).expanduser().resolve()
+
     output_path.mkdir(parents=True, exist_ok=True)
     p2w_path = output_path / "pleiades_not_in_wikidata.csv"
     with open(p2w_path, "w", encoding="utf-8") as f:
@@ -190,6 +228,19 @@ def main(**kwargs):
             writer.writerow(d)
     logger.info(f"Wrote {len(only_wikidata)} Wikidata->Pleiades links to {w2p_path}")
 
+    multiple_p4w_path = output_path / "wikidata_that_cite_multiple_pleiades.csv"
+    with open(multiple_p4w_path, "w", encoding="utf-8") as f:
+        writer = DictWriter(f, fieldnames=["wikidata_uri"])
+        writer.writeheader()
+        for wuri in multiple_p4w:
+            writer.writerow({"wikidata_uri": wuri})
+    del f
+
+    multicited_p_path = output_path / "pleiades_cited_by_multiple_wikidata.json"
+    with open(multicited_p_path, "w", encoding="utf-8") as f:
+        json.dump(multicited, f, cls=SetEncoder)
+    del f
+
     base_url = "https://github.com/isawnyu/pleiades_wikidata/blob/main/data/"
     msg = [
         f"Pleiades <-> Wikidata and other gazetteer alignments updated {kwargs['date']}:\n",
@@ -199,7 +250,11 @@ def main(**kwargs):
         f"{len(only_wikidata)} Pleiades resources to which Wikidata links can be added after they are checked: ",
         f"{base_url}wikidata_not_in_pleiades.csv\n\n",
         f"{len(only_pleiades)} Wikidata items to which Pleiades IDs can be added after they are checked: ",
-        f"{base_url}pleiades_not_in_wikidata.csv",
+        f"{base_url}pleiades_not_in_wikidata.csv\n\n",
+        f"{len(multiple_p4w)} Wikidata items that each link to more than one Pleiades ID (violates the ",
+        f"Wikidata 'single-value constraint'): {base_url}wikidata_that_cite_multiple_pleiades.csv\n\n",
+        f"{len(multicited)} Pleiades resources to each of which more than one Wikidata Item link (violates ",
+        f"the Wikidata 'distinct-values constraint'): {base_url}pleiades_cited_by_multiple_wikidata.json",
     ]
     msg = "".join(msg)
     print(msg)
