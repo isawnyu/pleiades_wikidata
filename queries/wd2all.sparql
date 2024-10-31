@@ -1,5 +1,8 @@
-SELECT DISTINCT ?pleiades ?item ?itemLabel (GROUP_CONCAT(DISTINCT ?chronique; SEPARATOR=",") as ?chronique_ids) (GROUP_CONCAT(DISTINCT ?dare; SEPARATOR=",") as ?dare_ids) (GROUP_CONCAT(DISTINCT ?geonames; SEPARATOR=",") as ?geonames_ids) (GROUP_CONCAT(DISTINCT ?gettytgn; SEPARATOR=",") as ?gettytgn_ids) (GROUP_CONCAT(DISTINCT ?idaigaz; SEPARATOR=",") as ?idaigaz_ids) (GROUP_CONCAT(DISTINCT ?loc; SEPARATOR=",") as ?loc_ids) (GROUP_CONCAT(DISTINCT ?manto; SEPARATOR=",") as ?manto_ids) (GROUP_CONCAT(DISTINCT ?nomisma; SEPARATOR=",") as ?nomisma_ids) (GROUP_CONCAT(DISTINCT ?topostext; SEPARATOR=",") as ?topostext_ids) (GROUP_CONCAT(DISTINCT ?trismegistos; SEPARATOR=",") as ?trismegistos_ids) (GROUP_CONCAT(DISTINCT ?viaf; SEPARATOR=",") as ?viaf_ids) (GROUP_CONCAT(DISTINCT ?vici; SEPARATOR=",") as ?vici_ids) ?wikipedia_en WHERE {
+SELECT DISTINCT ?pleiades ?item ?itemLabel ?itemDescription ?coordinates (GROUP_CONCAT(DISTINCT ?chronique; SEPARATOR=",") as ?chronique_ids) (GROUP_CONCAT(DISTINCT ?dare; SEPARATOR=",") as ?dare_ids) (GROUP_CONCAT(DISTINCT ?geonames; SEPARATOR=",") as ?geonames_ids) (GROUP_CONCAT(DISTINCT ?gettytgn; SEPARATOR=",") as ?gettytgn_ids) (GROUP_CONCAT(DISTINCT ?idaigaz; SEPARATOR=",") as ?idaigaz_ids) (GROUP_CONCAT(DISTINCT ?loc; SEPARATOR=",") as ?loc_ids) (GROUP_CONCAT(DISTINCT ?manto; SEPARATOR=",") as ?manto_ids) (GROUP_CONCAT(DISTINCT ?nomisma; SEPARATOR=",") as ?nomisma_ids) (GROUP_CONCAT(DISTINCT ?topostext; SEPARATOR=",") as ?topostext_ids) (GROUP_CONCAT(DISTINCT ?trismegistos; SEPARATOR=",") as ?trismegistos_ids) (GROUP_CONCAT(DISTINCT ?viaf; SEPARATOR=",") as ?viaf_ids) (GROUP_CONCAT(DISTINCT ?vici; SEPARATOR=",") as ?vici_ids) ?wikipedia_en WHERE {
   ?item wdt:P1584 ?pleiades .
+  OPTIONAL {
+    ?item wdt:P625 ?coordinates .
+  }
   OPTIONAL {
     ?item wdt:P1687 ?chronique .
   }
@@ -47,4 +50,5 @@ SELECT DISTINCT ?pleiades ?item ?itemLabel (GROUP_CONCAT(DISTINCT ?chronique; SE
       ?statement0 (ps:P1584) _:anyValueP1584.
     }
   }
-} GROUP BY ?pleiades ?item ?itemLabel ?wikipedia_en
+} GROUP BY ?pleiades ?item ?itemLabel ?itemDescription ?coordinates ?wikipedia_en
+ORDER BY ?pleiades ?item
