@@ -175,7 +175,7 @@ def main(**kwargs):
     with open(p2w_path, "w", encoding="utf-8") as f:
         writer = DictWriter(f, fieldnames=["pleiades_uri", "wikidata_uri"])
         writer.writeheader()
-        for puri in only_pleiades:
+        for puri in sorted(only_pleiades):
             writer.writerow({"pleiades_uri": puri, "wikidata_uri": p2w[puri]})
     logger.info(f"Wrote {len(only_pleiades)} Pleiades->Wikidata links to {p2w_path}")
 
@@ -205,7 +205,7 @@ def main(**kwargs):
             ],
         )
         writer.writeheader()
-        for puri in only_wikidata:
+        for puri in sorted(only_wikidata):
             logger.debug(puri)
             d = dict()
             for k, v in wikidata_dict[wikidata_dict_index[puri]].items():
@@ -232,13 +232,13 @@ def main(**kwargs):
     with open(multiple_p4w_path, "w", encoding="utf-8") as f:
         writer = DictWriter(f, fieldnames=["wikidata_uri"])
         writer.writeheader()
-        for wuri in multiple_p4w:
+        for wuri in sorted(multiple_p4w):
             writer.writerow({"wikidata_uri": wuri})
     del f
 
     multicited_p_path = output_path / "pleiades_cited_by_multiple_wikidata.json"
     with open(multicited_p_path, "w", encoding="utf-8") as f:
-        json.dump(multicited, f, cls=SetEncoder)
+        json.dump(multicited, f, cls=SetEncoder, ensure_ascii=False, indent=4)
     del f
 
     base_url = "https://github.com/isawnyu/pleiades_wikidata/blob/main/data/"
