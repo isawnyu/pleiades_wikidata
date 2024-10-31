@@ -26,7 +26,7 @@ DEFAULT_INDEX_PATH = str(
     .expanduser()
     .resolve()
 )
-DEFAULT_WIKIDATA_PATH = str(Path("./data/wd2all.csv").resolve())
+DEFAULT_WIKIDATA_PATH = str(Path("./data/wd2all.tsv").resolve())
 DEFAULT_OUTPUT_DIRECTORY = str(Path("./data/").resolve())
 
 OPTIONAL_ARGUMENTS = [
@@ -99,11 +99,11 @@ def main(**kwargs):
         if values:
             p2w[puri] = values[0]
 
-    wikidata = get_csv(data_path)
+    wikidata = get_csv(data_path, dialect="excel-tab")
     logger.info(
         f"Loaded Wikidata from {data_path} ({len(wikidata['content'])} entries)"
     )
-    logger.info(wikidata["fieldnames"])
+    logger.info(f"wikidata fieldnames: {wikidata['fieldnames']}")
     wikidata_dict = dict()
     wikidata_dict_index = dict()
     w2p = dict()
@@ -149,6 +149,8 @@ def main(**kwargs):
                 "pleiades_uri",
                 "wikidata_uri",
                 "wikidata_label",
+                "wikidata_description",
+                "wikidata_coordinates",
                 "chronique_id",
                 "dare_id",
                 "geonames_id",
@@ -166,14 +168,21 @@ def main(**kwargs):
         )
         writer.writeheader()
         for puri in only_wikidata:
+            logger.debug(puri)
             d = dict()
             for k, v in wikidata_dict[wikidata_dict_index[puri]].items():
+                logger.debug(f"k: '{k}'")
+                logger.debug(f"v: '{v}'")
                 if k == "item":
                     d["wikidata_uri"] = v
                 elif k == "pleiades":
                     d["pleiades_uri"] = puri
                 elif k == "itemLabel":
                     d["wikidata_label"] = v
+                elif k == "itemDescription":
+                    d["wikidata_description"] = v
+                elif k == "coordinates":
+                    d["wikidata_coordinates"] = v
                 elif k.endswith("s"):
                     d[k[:-1]] = v
                 else:
