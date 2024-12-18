@@ -243,18 +243,16 @@ def main(**kwargs):
 
     base_url = "https://github.com/isawnyu/pleiades_wikidata/blob/main/data/"
     msg = [
-        f"Pleiades <-> Wikidata and other gazetteer alignments updated {kwargs['date']}:\n",
-        f"{len(wikidata['content'])} Wikidata entities include a Pleiades ID property and ",
-        f"{len(p2w)} Pleiades entities include a Wikidata ID property. ",
-        f"Of these, {len(bidirectional)} are mutual (bidirectional).\n\n",
-        f"{len(only_wikidata)} Pleiades resources to which Wikidata links can be added after they are checked: ",
-        f"{base_url}wikidata_not_in_pleiades.csv\n\n",
-        f"{len(only_pleiades)} Wikidata items to which Pleiades IDs can be added after they are checked: ",
-        f"{base_url}pleiades_not_in_wikidata.csv\n\n",
-        f"{len(multiple_p4w)} Wikidata items that each link to more than one Pleiades ID (violates the ",
-        f"Wikidata 'single-value constraint'): {base_url}wikidata_that_cite_multiple_pleiades.csv\n\n",
-        f"{len(multicited)} Pleiades resources to each of which more than one Wikidata Item link (violates ",
-        f"the Wikidata 'distinct-values constraint'): {base_url}pleiades_cited_by_multiple_wikidata.json",
+        f"Pleiades <-> Wikidata and other gazetteer alignments updated {kwargs['date']}:\n\n",
+        f"{len(wikidata['content']):,} Wikidata entities include a Pleiades ID property and ",
+        f"{len(p2w):,} Pleiades entities include a Wikidata ID property. ",
+        f"Of these, {len(bidirectional):,} are mutual (bidirectional). There are: ",
+        f"{len(only_wikidata):,} Pleiades resources to which Wikidata links can be added after they are checked; ",
+        f"{len(only_pleiades):,} Wikidata items to which Pleiades IDs can be added after they are checked; ",
+        f"{len(multiple_p4w):,} Wikidata items that each link to more than one Pleiades ID (violates the ",
+        f"Wikidata 'single-value constraint'); and ",
+        f"{len(multicited):,} Pleiades resources to each of which more than one Wikidata Item link (violates ",
+        f"the Wikidata 'distinct-values constraint').",
     ]
     msg = "".join(msg)
     print(msg)
