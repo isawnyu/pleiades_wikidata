@@ -463,8 +463,8 @@ pleiades	item	itemLabel	itemDescription	coordinates	chronique_ids	dare_ids	geona
 109322	http://www.wikidata.org/entity/Q153972	Saar	river in France and Germany	Point(6.57 49.701388888)		7452	2842622			sh85116164				64307	15144647633626243228		https://en.wikipedia.org/wiki/Saar_(river)
 109322	http://www.wikidata.org/entity/Q153972	Saar	river in France and Germany	Point(7.166111111 48.534722222)		7452	2842622			sh85116164				64307	15144647633626243228		https://en.wikipedia.org/wiki/Saar_(river)
 109327	http://www.wikidata.org/entity/Q1159365	Savonnières-en-Perthois	commune in Meuse, France	Point(5.132222222 48.605277777)			6612642								3796147425857345040009		https://en.wikipedia.org/wiki/Savonni%C3%A8res-en-Perthois
-109328	http://www.wikidata.org/entity/Q37620	Scheldt	river in France, Belgium and the Netherlands	Point(3.2664 49.9864)		43897	3301577			sh85118104					316880098		https://en.wikipedia.org/wiki/Scheldt
 109328	http://www.wikidata.org/entity/Q37620	Scheldt	river in France, Belgium and the Netherlands	Point(3.545 51.4228)		43897	3301577			sh85118104					316880098		https://en.wikipedia.org/wiki/Scheldt
+109328	http://www.wikidata.org/entity/Q37620	Scheldt	river in France, Belgium and the Netherlands	Point(3.2664 49.9864)		43897	3301577			sh85118104					316880098		https://en.wikipedia.org/wiki/Scheldt
 109329	http://www.wikidata.org/entity/Q20108864	Scarponna		Point(6.0752 48.8472)									488061USca	24386			
 109331	http://www.wikidata.org/entity/Q1226232	Sceaux-sur-Huisne	commune in Sarthe, France	Point(0.583333333 48.104722222)			2975465										https://en.wikipedia.org/wiki/Sceaux-sur-Huisne
 109333	http://www.wikidata.org/entity/Q2179623	Römermuseum Schwarzenacker	museum in Germany	Point(7.31663 49.2828)		2093			2744601								https://en.wikipedia.org/wiki/Schwarzenacker_Roman_Museum
@@ -708,7 +708,7 @@ pleiades	item	itemLabel	itemDescription	coordinates	chronique_ids	dare_ids	geona
 118725	http://www.wikidata.org/entity/Q1735371	Halheim Fort	Roman fort	Point(10.2857 48.9832)		2179	8504465								2349154501856139210001	4429	https://en.wikipedia.org/wiki/Halheim_Fort
 118726	http://www.wikidata.org/entity/Q3802	Hanau	city in Main-Kinzig-Kreis in Hesse, Germany	Point(8.916944444 50.132777777)			6557738	7005295		n81146665					134967927		https://en.wikipedia.org/wiki/Hanau
 118731	http://www.wikidata.org/entity/Q1594006	Heidelberg in the Roman period	aspect of history			2210											https://en.wikipedia.org/wiki/Heidelberg_in_the_Roman_period
-118732	http://www.wikidata.org/entity/Q1594158	Heidengraben	oppidum in Germany	Point(9.45 48.5333)		20788,18429										45948	https://en.wikipedia.org/wiki/Heidengraben
+118732	http://www.wikidata.org/entity/Q1594158	Heidengraben	oppidum in Germany	Point(9.45 48.5333)		18429,20788										45948	https://en.wikipedia.org/wiki/Heidengraben
 118734	http://www.wikidata.org/entity/Q715	Heilbronn	German city in the state of Baden-Württemberg	Point(9.217953 49.140428)			3220740		2089777	n80104782				20064	155528717		https://en.wikipedia.org/wiki/Heilbronn
 118735	http://www.wikidata.org/entity/Q103163551	Heiligenberg (Samian Ware Discovery Site)	Heiligenberg as Samian Ware discovery site	Point(7.3906 48.5389)													
 118736	http://www.wikidata.org/entity/Q504880	Kirchheim bei München	municipality of Germany	Point(11.75563 48.17656)			6559194			n85366445					134945581		https://en.wikipedia.org/wiki/Kirchheim_bei_M%C3%BCnchen
@@ -747,7 +747,7 @@ pleiades	item	itemLabel	itemDescription	coordinates	chronique_ids	dare_ids	geona
 118814	http://www.wikidata.org/entity/Q1433981	Castra of Lorch	Roman fort	Point(9.68855 48.7981)		1976	8504461									4424	
 118815	http://www.wikidata.org/entity/Q103185973	Munningen (Samian Ware Discovery Site)	Munningen as Samian Ware discovery site	Point(10.6 48.916667)										28190			
 118815	http://www.wikidata.org/entity/Q505766	Munningen	municipality of Germany	Point(10.583333333 48.916666666)		8102	6557293	7133576		n2007079958				28190	234702676		https://en.wikipedia.org/wiki/Munningen
-118828	http://www.wikidata.org/entity/Q1751613	Maiersch	locality and cadastral community in Horn District	Point(15.6891 48.5768)		34021	2772091								141962296		
+118828	http://www.wikidata.org/entity/Q1751613	Maiersch	locality in Horn District	Point(15.6891 48.5768)		34021	2772091								141962296		
 118829	http://www.wikidata.org/entity/Q81038	Mainhardt	municipality in Germany	Point(9.55 49.083333333)			6555550	1040223	2046184						248625110		https://en.wikipedia.org/wiki/Mainhardt
 118831	http://www.wikidata.org/entity/Q209851	Marcomanni	historical Germanic group							sh85081025							https://en.wikipedia.org/wiki/Marcomanni
 118834	http://www.wikidata.org/entity/Q1901952	Marköbel	human settlement in Germany	Point(8.98528 50.2219)				7130839							144391991		
@@ -866,7 +866,7 @@ pleiades	item	itemLabel	itemDescription	coordinates	chronique_ids	dare_ids	geona
 119042	http://www.wikidata.org/entity/Q103199451	Walheim (Samian Ware Discovery Site)	Walheim as Samian Ware discovery site	Point(9.15111 49.014167)													
 119043	http://www.wikidata.org/entity/Q503285	Walldürn	municipality in Germany	Point(9.368055555 49.583055555)			6558050	7012756	2045869	n82125183				28041	133717378		https://en.wikipedia.org/wiki/Walld%C3%BCrn
 119055	http://www.wikidata.org/entity/Q1588142	Würzberg	municipal district of Michelstadt, Germany	Point(9.079463888 49.653930555)													
-119058	http://www.wikidata.org/entity/Q144406	Zaingrub	locality and cadastral community in Horn District	Point(15.6874 48.6254)		33369									308220221		
+119058	http://www.wikidata.org/entity/Q144406	Zaingrub	locality in Horn District	Point(15.6874 48.6254)		33369									308220221		
 119061	http://www.wikidata.org/entity/Q12042817	Oppidum Závist	mountain in Czech Republic	Point(14.40805556 49.96222222)		20062	11071423										
 119064	http://www.wikidata.org/entity/Q207261	Zlonice	municipality in the Czech Republic	Point(14.092220041 50.287581759)			3061360	1027673							233874022		https://en.wikipedia.org/wiki/Zlonice
 119069	http://www.wikidata.org/entity/Q393342	Žalany	village in Teplice District of Ústí nad Labem region	Point(13.906435502 50.590111262)			3061945										https://en.wikipedia.org/wiki/%C5%BDalany
@@ -1718,7 +1718,7 @@ pleiades	item	itemLabel	itemDescription	coordinates	chronique_ids	dare_ids	geona
 172755092	http://www.wikidata.org/entity/Q111363494	Kastro Kourounas Tower	ancient tower ruins in the Argolid	Point(22.5916 37.7506)									378226FKKo				
 173078007	http://www.wikidata.org/entity/Q616271	Basilica Julia	building in Roman Forum, Italy	Point(12.48478 41.89195)			6269257						419125BBJu	43702		23664	https://en.wikipedia.org/wiki/Basilica_Julia
 173312608	http://www.wikidata.org/entity/Q6092629	Puig de Sa Morisca	archaeological site in Santa Ponça	Point(2.480611111 39.507527777)		42920											
-174231907	http://www.wikidata.org/entity/Q1735441	Welzheim East Roman Fort	was built in about 160	Point(9.64224 48.87122)		2155,19272	8504459										
+174231907	http://www.wikidata.org/entity/Q1735441	Welzheim East Roman Fort	was built in about 160	Point(9.64224 48.87122)		19272,2155	8504459										
 174457453	http://www.wikidata.org/entity/Q874283	Latin League	ancient confederation of Latin city-states for mutual defense														https://en.wikipedia.org/wiki/Latin_League
 174900201	http://www.wikidata.org/entity/Q756816	Via Aurelia	Roman road in Italy														https://en.wikipedia.org/wiki/Via_Aurelia
 175420887	http://www.wikidata.org/entity/Q3346872	Necropolis of Prato Rosello	archaeological site in Carmignano, Italy	Point(11.05555556 43.77416667)		42263											
@@ -1765,7 +1765,7 @@ pleiades	item	itemLabel	itemDescription	coordinates	chronique_ids	dare_ids	geona
 177495	http://www.wikidata.org/entity/Q670912	Aventicum	archaeological site	Point(7.049 46.88)		24				n83734885			469070UCol	28057	178631884	2837	https://en.wikipedia.org/wiki/Aventicum
 177496	http://www.wikidata.org/entity/Q2984231	Noviodunum	archaeological site in Nyon in the canton of Vaud, Suisse	Point(6.23883 46.38252)		21	2659422			n80125701			464062UJEq		157108087		https://en.wikipedia.org/wiki/Noviodunum_(Switzerland)
 177498	http://www.wikidata.org/entity/Q1100954	Colmier-le-Bas	commune in Haute-Marne, France	Point(4.9525 47.771666666)			6436141			n83208987				34777	123197537		https://en.wikipedia.org/wiki/Colmier-le-Bas
-177507	http://www.wikidata.org/entity/Q205586	Dole	commune in Jura, France	Point(5.489722222 47.092222222)			6454103,3021263			n79091176				34837	150085542		https://en.wikipedia.org/wiki/Dole,_Jura
+177507	http://www.wikidata.org/entity/Q205586	Dole	commune in Jura, France	Point(5.489722222 47.092222222)			3021263,6454103			n79091176				34837	150085542		https://en.wikipedia.org/wiki/Dole,_Jura
 177508	http://www.wikidata.org/entity/Q14372	Doubs	river in Switzerland and France	Point(6.2094 46.7049)		43922	3020990			sh96004234					315145191		https://en.wikipedia.org/wiki/Doubs_(river)
 177508	http://www.wikidata.org/entity/Q14372	Doubs	river in Switzerland and France	Point(5.0239 46.9015)		43922	3020990			sh96004234					315145191		https://en.wikipedia.org/wiki/Doubs_(river)
 177513	http://www.wikidata.org/entity/Q14375	Lake Neuchâtel	lake in Switzerland	Point(6.85 46.9)			2659494								304911054		https://en.wikipedia.org/wiki/Lake_Neuch%C3%A2tel
@@ -2051,7 +2051,7 @@ pleiades	item	itemLabel	itemDescription	coordinates	chronique_ids	dare_ids	geona
 197113	http://www.wikidata.org/entity/Q12744603	Andautonia	ancient Roman settlement of Pannonia	Point(16.11724 45.773624)		10875								29126	316640289	21918	https://en.wikipedia.org/wiki/Andautonia
 197115	http://www.wikidata.org/entity/Q4754310	Andetrium	Roman military town in Illyria	Point(16.48388889 43.69055556)										29420			https://en.wikipedia.org/wiki/Andetrium
 197116	http://www.wikidata.org/entity/Q1255547	Andizetes	tribe in Roman Illyria														
-197118	http://www.wikidata.org/entity/Q1265006	Castra Annamatia	Roman fort	Point(18.9215 46.8683)		19998,44953,19996,26736,26772,26737,19995,19997,26770,10907,44954,26771											
+197118	http://www.wikidata.org/entity/Q1265006	Castra Annamatia	Roman fort	Point(18.9215 46.8683)		26770,19997,19998,44953,19996,26736,26772,26737,19995,26771,44954,10907											
 197122	http://www.wikidata.org/entity/Q1082831	Osor	settlement in the Town of Mali Lošinj, Primorje-Gorski Kotar County, Croatia	Point(14.39268889 44.69324722)		17968							447144UAps				https://en.wikipedia.org/wiki/Osor,_Croatia
 197123	http://www.wikidata.org/entity/Q13280	Cres	island of Croatia	Point(14.408055555 44.960277777)		41578	3202523			n85149687					146646393		https://en.wikipedia.org/wiki/Cres
 197127	http://www.wikidata.org/entity/Q3510699	Aquae Iasae	monument	Point(16.42138889 46.20805556)		22875								29125			https://en.wikipedia.org/wiki/Aquae_Iasae
@@ -2225,6 +2225,7 @@ pleiades	item	itemLabel	itemDescription	coordinates	chronique_ids	dare_ids	geona
 197519	http://www.wikidata.org/entity/Q1289892	Solva	early name for what is now Esztergom, Hungary	Point(18.73671 47.79904)		10842											https://en.wikipedia.org/wiki/Solva_(Hungary)
 197519	http://www.wikidata.org/entity/Q1289892	Solva	early name for what is now Esztergom, Hungary	Point(18.74166667 47.79555556)		10842											https://en.wikipedia.org/wiki/Solva_(Hungary)
 197523	http://www.wikidata.org/entity/Q11950215	Sopianae	ancient Roman town in place of present-day Pécs, Hungary	Point(18.2244 46.0777)									461182USop	29256			
+197524	http://www.wikidata.org/entity/Q1663	Split	city and settlement in Split-Dalmatia County, Croatia	Point(16.44 43.51)			3190259			n81008274					154775061	2053	https://en.wikipedia.org/wiki/Split,_Croatia
 197530	http://www.wikidata.org/entity/Q698520	Liezen	municipality in Liezen District, Styria, Austria	Point(14.233333333 47.566666666)		10744	7873501			n89119005					137325323		https://en.wikipedia.org/wiki/Liezen
 197533	http://www.wikidata.org/entity/Q688726	Trieben	municipality in Liezen District, Styria, Austria	Point(14.485555555 47.486388888)		10745	7872453							41139	139050064	1921	https://en.wikipedia.org/wiki/Trieben
 197535	http://www.wikidata.org/entity/Q920876	Szebény	village in Hungary	Point(18.6 46.133333)			3044816										https://en.wikipedia.org/wiki/Szeb%C3%A9ny
@@ -2677,16 +2678,15 @@ pleiades	item	itemLabel	itemDescription	coordinates	chronique_ids	dare_ids	geona
 216907	http://www.wikidata.org/entity/Q1110806	Oescus	archaeological site in Bulgaria	Point(24.4656825 43.710758611)		21378				sh2002001183			437245UOes		234811269,315170327		https://en.wikipedia.org/wiki/Oescus
 216907	http://www.wikidata.org/entity/Q1110806	Oescus	archaeological site in Bulgaria	Point(24.4833 43.7)		21378				sh2002001183			437245UOes		234811269,315170327		https://en.wikipedia.org/wiki/Oescus
 216908	http://www.wikidata.org/entity/Q217805	Iskar	river in Bulgaria	Point(24.442222222 43.7325)			730872			sh85068387					315127882		https://en.wikipedia.org/wiki/Iskar_(river)
-216908	http://www.wikidata.org/entity/Q217805	Iskar	river in Bulgaria	Point(24.4419 43.7317)			730872			sh85068387					315127882		https://en.wikipedia.org/wiki/Iskar_(river)
 216908	http://www.wikidata.org/entity/Q217805	Iskar	river in Bulgaria	Point(23.5345 42.2877)			730872			sh85068387					315127882		https://en.wikipedia.org/wiki/Iskar_(river)
 216908	http://www.wikidata.org/entity/Q217805	Iskar	river in Bulgaria	Point(23.330277777 42.194166666)			730872			sh85068387					315127882		https://en.wikipedia.org/wiki/Iskar_(river)
 216911	http://www.wikidata.org/entity/Q830597	Orheiu Bistriței	village in Bistrița-Năsăud County, Romania	Point(24.59298134 47.09589624)			671713								235577465		
 216913	http://www.wikidata.org/entity/Q42882679	Castrum Ovidiu	heritage site in Constanța County, Romania	Point(28.5775 44.24639)		34215										7495	
 216916	http://www.wikidata.org/entity/Q136440509	Palmatis		Point(27.593267 43.824493)		23331								29838		29578	
 216917	http://www.wikidata.org/entity/Q406222	Panagyurishte	city in Panagyurishte municipality, Pazardzhik oblast, Bulgaria	Point(24.180243 42.502624)			728448	1026928							53145602596501361984		https://en.wikipedia.org/wiki/Panagyurishte
+216919	http://www.wikidata.org/entity/Q1461510	Kamchiya	river in Bulgaria	Point(27.4425 43.044444444)			730716	1125365									https://en.wikipedia.org/wiki/Kamchiya
 216919	http://www.wikidata.org/entity/Q1461510	Kamchiya	river in Bulgaria	Point(27.88981 43.022722)			730716	1125365									https://en.wikipedia.org/wiki/Kamchiya
 216919	http://www.wikidata.org/entity/Q1461510	Kamchiya	river in Bulgaria	Point(27.883333333 43.033333333)			730716	1125365									https://en.wikipedia.org/wiki/Kamchiya
-216919	http://www.wikidata.org/entity/Q1461510	Kamchiya	river in Bulgaria	Point(27.4425 43.044444444)			730716	1125365									https://en.wikipedia.org/wiki/Kamchiya
 216927	http://www.wikidata.org/entity/Q27047924	Philippopolis	ancient city, modern Plovdiv	Point(24.748888888 42.143333333)		21408							421247PPhi				https://en.wikipedia.org/wiki/Philippopolis_(Thrace)
 216928	http://www.wikidata.org/entity/Q719690	Piatra Roșie Dacian fortress	ancient Dacian fortress	Point(23.147403 45.602264)		40638											https://en.wikipedia.org/wiki/Piatra_Ro%C8%99ie_Dacian_fortress
 216932	http://www.wikidata.org/entity/Q7198058	Piroboridava	Dacian fortified settlement	Point(27.250009 45.983326)													https://en.wikipedia.org/wiki/Piroboridava
@@ -3151,8 +3151,8 @@ pleiades	item	itemLabel	itemDescription	coordinates	chronique_ids	dare_ids	geona
 246410	http://www.wikidata.org/entity/Q677814	La Graufesenque	archaeological site	Point(3.092094444 44.097172222)		8019	6697032								246200039	10600	https://en.wikipedia.org/wiki/La_Graufesenque
 246410	http://www.wikidata.org/entity/Q677814	La Graufesenque	archaeological site	Point(3.083333 44.099998)		8019	6697032								246200039	10600	https://en.wikipedia.org/wiki/La_Graufesenque
 246413	http://www.wikidata.org/entity/Q103151309	Bram (Samian Ware Discovery Site)	Bram as Samian Ware discovery site	Point(2.11341 43.24376)													
-246418	http://www.wikidata.org/entity/Q10965	Ebro	river in Spain	Point(0.869293 40.728527)		44362	3123754			sh85040658			407006WEbr		316429232		https://en.wikipedia.org/wiki/Ebro
 246418	http://www.wikidata.org/entity/Q10965	Ebro	river in Spain	Point(-4.37 43.0375)		44362	3123754			sh85040658			407006WEbr		316429232		https://en.wikipedia.org/wiki/Ebro
+246418	http://www.wikidata.org/entity/Q10965	Ebro	river in Spain	Point(0.869293 40.728527)		44362	3123754			sh85040658			407006WEbr		316429232		https://en.wikipedia.org/wiki/Ebro
 246423	http://www.wikidata.org/entity/Q190992	Iberians	historical ethnical group of the Iberian peninsula														https://en.wikipedia.org/wiki/Iberians
 246428	http://www.wikidata.org/entity/Q5908877	Iesso	archaeological site in Guissona, Spain	Point(1.28990833 41.78767222)		18383							418013UIes				
 246431	http://www.wikidata.org/entity/Q17606722	Ilerda	ancient Roman city	Point(0.626086 41.6178)									416006UIle			3808	
@@ -3190,7 +3190,7 @@ pleiades	item	itemLabel	itemDescription	coordinates	chronique_ids	dare_ids	geona
 246559	http://www.wikidata.org/entity/Q2975178	Pellendones	ancient pre-Roman Celtic Celtiberian people														https://en.wikipedia.org/wiki/Pellendones
 246566	http://www.wikidata.org/entity/Q3540493	Trophy of Pompey	a ca. 71 BCE military trophy honoring Pompeius Magnus near the Col de Panissars	Point(2.85429 42.4551)		21299							425029ATrP		83144647636668179728		
 246567	http://www.wikidata.org/entity/Q10282	Pamplona	municipality in Spain, capital of Navarre and main municipality of the historical Kingdom of Navarre	Point(-1.65 42.816666666)			6359749			n79043239					144950140		https://en.wikipedia.org/wiki/Pamplona
-246582	http://www.wikidata.org/entity/Q12431	Pyrenees	range of mountains in southwest Europe	Point(0.6 42.7)		41584	3112616	7016876	2361241				426007LPyr		316429411,241428861,316431858		https://en.wikipedia.org/wiki/Pyrenees
+246582	http://www.wikidata.org/entity/Q12431	Pyrenees	range of mountains in southwest Europe	Point(0.6 42.7)		41584	3112616	7016876	2361241				426007LPyr		241428861,316431858,316429411		https://en.wikipedia.org/wiki/Pyrenees
 246588	http://www.wikidata.org/entity/Q4395887	Rhode	ancient Greek colony in Spain	Point(3.16916944 42.26748889)		17890							423032PRho				
 246592	http://www.wikidata.org/entity/Q9061221	Poblat ibèric de Can Fatjó		Point(2.026388888 41.490277777)		18286							415020URub				
 246593	http://www.wikidata.org/entity/Q31424	Llobregat	second longest river in Catalonia, Spain	Point(2.012826 42.282412)			3118233								316430016		https://en.wikipedia.org/wiki/Llobregat
@@ -3367,8 +3367,8 @@ pleiades	item	itemLabel	itemDescription	coordinates	chronique_ids	dare_ids	geona
 256013	http://www.wikidata.org/entity/Q103197558	Tavira (Samian Ware Discovery Site)	Tavira as Samian Ware discovery site	Point(-7.64861 37.12734)													
 256013	http://www.wikidata.org/entity/Q2881532	Balsa	Roman town	Point(-7.693862 37.085549)		22460	8224838						371000UBa3		315166632		https://en.wikipedia.org/wiki/Balsa_(Roman_town)
 256015	http://www.wikidata.org/entity/Q63378387	Cabo Espichel	protected area in Portugal	Point(-9.222 38.414)			2268499	1010667									https://en.wikipedia.org/wiki/Cape_Espichel
-256016	http://www.wikidata.org/entity/Q17952	Guadiaro	river in Spain	Point(-5.204111111 36.754194444)			2516931	7331140,1124423									https://en.wikipedia.org/wiki/Guadiaro_(river)
 256016	http://www.wikidata.org/entity/Q17952	Guadiaro	river in Spain	Point(-5.276666666 36.2825)			2516931	7331140,1124423									https://en.wikipedia.org/wiki/Guadiaro_(river)
+256016	http://www.wikidata.org/entity/Q17952	Guadiaro	river in Spain	Point(-5.204111111 36.754194444)			2516931	7331140,1124423									https://en.wikipedia.org/wiki/Guadiaro_(river)
 256017	http://www.wikidata.org/entity/Q5719362	Barbesula	ancient coastal city of Spain	Point(-5.3 36.2975)		33440											
 256038	http://www.wikidata.org/entity/Q131824651	Tower of Caepio		Point(-6.442082206 36.737888331)													
 256040	http://www.wikidata.org/entity/Q1057789	Caetobriga	human settlement in Portugal	Point(-8.893066 38.524512)		18347							385000UCae	38541		3627	
@@ -3405,8 +3405,8 @@ pleiades	item	itemLabel	itemDescription	coordinates	chronique_ids	dare_ids	geona
 256198	http://www.wikidata.org/entity/Q36124	Strait of Gibraltar	strait that connects the Atlantic Ocean to the Mediterranean Sea	Point(-5.516111111 35.973888888)			2363256	1115137		sh85054865					1145243764274441519		https://en.wikipedia.org/wiki/Strait_of_Gibraltar
 256210	http://www.wikidata.org/entity/Q100422615	Hispalis	Roman city, predecessor to Seville, Spain										374000UHis				
 256210	http://www.wikidata.org/entity/Q103195185	Sevilla (Samian Ware Discovery Site)	Sevilla as Samian Ware discovery site	Point(-5.986944 37.377222)		16679							374000UHis				
-256218	http://www.wikidata.org/entity/Q17744	Tinto	river in Spain	Point(-6.5528 37.7031)			2510442								215145542720796642030		https://en.wikipedia.org/wiki/Rio_Tinto_(river)
 256218	http://www.wikidata.org/entity/Q17744	Tinto	river in Spain	Point(-6.938888888 37.208611111)			2510442								215145542720796642030		https://en.wikipedia.org/wiki/Rio_Tinto_(river)
+256218	http://www.wikidata.org/entity/Q17744	Tinto	river in Spain	Point(-6.5528 37.7031)			2510442								215145542720796642030		https://en.wikipedia.org/wiki/Rio_Tinto_(river)
 256220	http://www.wikidata.org/entity/Q66764237	Egitania	archaeological site in Idanha-a-Nova, Portugal	Point(-7.143956111 39.99664)		16868							400000UXIg	25770			
 256221	http://www.wikidata.org/entity/Q828723	Niebla	municipality of Spain	Point(-6.6778698 37.3614387)		16835	6358229			n88055777			374000UIli		147850893		https://en.wikipedia.org/wiki/Niebla,_Spain
 256222	http://www.wikidata.org/entity/Q5998362	Ilipa	ancient Spanish town near Seville	Point(-5.97833333 37.51833333)		31264							375-60UIli	26195			https://en.wikipedia.org/wiki/Ilipa
@@ -3472,8 +3472,8 @@ pleiades	item	itemLabel	itemDescription	coordinates	chronique_ids	dare_ids	geona
 256411	http://www.wikidata.org/entity/Q6116778	Saepo	a Roman municipium mentioned by Pliny the Elder			31308								38512			
 256414	http://www.wikidata.org/entity/Q850697	Alcácer do Sal	municipality in Portugal	Point(-8.50011 38.3882)		18348	8010615,2272212	1049664		n86122139			384000USal		146667145		https://en.wikipedia.org/wiki/Alc%C3%A1cer_do_Sal
 256414	http://www.wikidata.org/entity/Q850697	Alcácer do Sal	municipality in Portugal	Point(-8.513333333 38.3725)		18348	8010615,2272212	1049664		n86122139			384000USal		146667145		https://en.wikipedia.org/wiki/Alc%C3%A1cer_do_Sal
-256415	http://www.wikidata.org/entity/Q17956	Guadalhorce	river in Spain, European Union	Point(-4.455 36.666)			2516991								312666372		https://en.wikipedia.org/wiki/Guadalhorce
 256415	http://www.wikidata.org/entity/Q17956	Guadalhorce	river in Spain, European Union	Point(-4.2282 37.0436)			2516991								312666372		https://en.wikipedia.org/wiki/Guadalhorce
+256415	http://www.wikidata.org/entity/Q17956	Guadalhorce	river in Spain, European Union	Point(-4.455 36.666)			2516991								312666372		https://en.wikipedia.org/wiki/Guadalhorce
 256416	http://www.wikidata.org/entity/Q6117205	Salduba , Baetica		Point(-5.070235 36.462407143)		22425							365000USal				
 256422	http://www.wikidata.org/entity/Q2802496	Sítio Arqueológico de São Cucufate	building in Vidigueira Municipality, Beja District, Portugal	Point(-7.84527778 38.22361111)		22468											https://en.wikipedia.org/wiki/Roman_ruins_of_S%C3%A3o_Cucufate
 256429	http://www.wikidata.org/entity/Q10375914	Povoado fortificado e Santuário de Endovélico	cultural heritage monument in Alandroal, Portugal	Point(-7.443149089 38.64338684)													
@@ -4255,7 +4255,7 @@ pleiades	item	itemLabel	itemDescription	coordinates	chronique_ids	dare_ids	geona
 334481	http://www.wikidata.org/entity/Q410453	Aethiopia	ancient name for the greater region of Africa								8228939		130350REth				https://en.wikipedia.org/wiki/Aethiopia
 334487	http://www.wikidata.org/entity/Q1648562	Aïn Errich	commune and town in M'Sila Province, Algeria	Point(4.09694444 34.68083333)													https://en.wikipedia.org/wiki/A%C3%AFn_Errich
 334497	http://www.wikidata.org/entity/Q62624	Aurès Mountains	mountain range in Algeria	Point(6.166666666 35.233333333)			2506085	1108741		sh91004432					315131765,127975220		https://en.wikipedia.org/wiki/Aur%C3%A8s_Mountains
-334497	http://www.wikidata.org/entity/Q62624	Aurès Mountains	mountain range in Algeria	Point(6.636944444 35.318055555)			2506085	1108741		sh91004432					127975220,315131765		https://en.wikipedia.org/wiki/Aur%C3%A8s_Mountains
+334497	http://www.wikidata.org/entity/Q62624	Aurès Mountains	mountain range in Algeria	Point(6.636944444 35.318055555)			2506085	1108741		sh91004432					315131765,127975220		https://en.wikipedia.org/wiki/Aur%C3%A8s_Mountains
 334514	http://www.wikidata.org/entity/Q1649736	Negrine	commune and town in Tébessa, Algeria	Point(7.5205279 34.4856887)			2486265										https://en.wikipedia.org/wiki/Negrine
 334518	http://www.wikidata.org/entity/Q60788343	Castellum Dimmidi	Roman castrum	Point(3.498374 34.155804)												12967	https://en.wikipedia.org/wiki/Castellum_Dimmidi
 334527	http://www.wikidata.org/entity/Q131339871	Q131339871		Point(5.118813 35.088227)										43561		59933	
@@ -5221,7 +5221,7 @@ pleiades	item	itemLabel	itemDescription	coordinates	chronique_ids	dare_ids	geona
 412995	http://www.wikidata.org/entity/Q3839011	Lucrezia	settlement in the Italian municipality of Cartoceto	Point(12.93995 43.7731)		26556	3174508										
 412995	http://www.wikidata.org/entity/Q3839011	Lucrezia	settlement in the Italian municipality of Cartoceto	Point(12.937777777 43.775833333)		26556	3174508										
 412998	http://www.wikidata.org/entity/Q243022	Morlupo	Italian comune	Point(12.504672222 42.143461111)		17248	6540523										https://en.wikipedia.org/wiki/Morlupo
-413002	http://www.wikidata.org/entity/Q13144	Jesi	Italian comune	Point(13.24395 43.522788888)		16812	6541474						435132UAes		153065604		https://en.wikipedia.org/wiki/Jesi
+413002	http://www.wikidata.org/entity/Q13144	Jesi	Italian comune	Point(13.246197 43.523775)		16812	6541474						435132UAes		153065604		https://en.wikipedia.org/wiki/Jesi
 413003	http://www.wikidata.org/entity/Q969496	Esino	river in Italy	Point(13.3728 43.6425)			3177345								241212981		https://en.wikipedia.org/wiki/Esino
 413003	http://www.wikidata.org/entity/Q969496	Esino	river in Italy	Point(12.8958 43.2102)			3177345								241212981		https://en.wikipedia.org/wiki/Esino
 413005	http://www.wikidata.org/entity/Q944515	Alba Fucens	ancient town	Point(13.411468116 42.079059725)		22285	8410805			n91042425			421134UAlb	32769	147883490,143202672		https://en.wikipedia.org/wiki/Alba_Fucens
@@ -5235,9 +5235,9 @@ pleiades	item	itemLabel	itemDescription	coordinates	chronique_ids	dare_ids	geona
 413023	http://www.wikidata.org/entity/Q4011076	Vicarello	human settlement in Bracciano, Metropolitan City of Rome, Lazio, Italy	Point(12.207222222 42.158333333)		14077,22208											
 413024	http://www.wikidata.org/entity/Q383071	Aquae Cutiliae	mineral spring in Italy	Point(13.008757 42.380104)		17240								40798			https://en.wikipedia.org/wiki/Aquae_Cutiliae
 413026	http://www.wikidata.org/entity/Q3984387	Terme Taurine (Civitavecchia)		Point(11.83591944 42.1095)		23146								32031	248792740		https://en.wikipedia.org/wiki/Terme_Taurine
-413029	http://www.wikidata.org/entity/Q691596	Fiora River	river in Italy	Point(11.5831 42.8308)			3176971			sh2002006913				41806	244743084		https://en.wikipedia.org/wiki/Fiora_(river)
 413029	http://www.wikidata.org/entity/Q691596	Fiora River	river in Italy	Point(11.5734 42.3277)			3176971			sh2002006913				41806	244743084		https://en.wikipedia.org/wiki/Fiora_(river)
 413029	http://www.wikidata.org/entity/Q691596	Fiora River	river in Italy	Point(11.5729675 42.3274128)			3176971			sh2002006913				41806	244743084		https://en.wikipedia.org/wiki/Fiora_(river)
+413029	http://www.wikidata.org/entity/Q691596	Fiora River	river in Italy	Point(11.5831 42.8308)			3176971			sh2002006913				41806	244743084		https://en.wikipedia.org/wiki/Fiora_(river)
 413030	http://www.wikidata.org/entity/Q1236794	Civitella d'Arna	frazione of Italy	Point(12.482777777 43.129166666)													https://en.wikipedia.org/wiki/Civitella_d%27Arna
 413032	http://www.wikidata.org/entity/Q9160295	Arretium	human settlement in Italy	Point(11.88 43.47)		5064	3182884						435119UArr	11804		1621	
 413032	http://www.wikidata.org/entity/Q9160295	Arretium	human settlement in Italy	Point(11.878056 43.463056)		5064	3182884						435119UArr	11804		1621	
@@ -5317,7 +5317,7 @@ pleiades	item	itemLabel	itemDescription	coordinates	chronique_ids	dare_ids	geona
 413131	http://www.wikidata.org/entity/Q3739562	Farfa		Point(12.716666666 42.216666666)													
 413132	http://www.wikidata.org/entity/Q597347	Ferentium	ancient city	Point(12.1325 42.48861111)		21341							425121UFer		243539525		https://en.wikipedia.org/wiki/Ferentium
 413133	http://www.wikidata.org/entity/Q2314058	Fescennia	archaeological site in Lazio, Italy														https://en.wikipedia.org/wiki/Fescennia
-413135	http://www.wikidata.org/entity/Q13139	Fermo	Italian comune	Point(13.7181 43.160419444)		15297	6541874			n81003071			432137UFir		141897984		https://en.wikipedia.org/wiki/Fermo
+413135	http://www.wikidata.org/entity/Q13139	Fermo	Italian comune	Point(13.718397 43.161284)		15297	6541874			n81003071			432137UFir		141897984		https://en.wikipedia.org/wiki/Fermo
 413138	http://www.wikidata.org/entity/Q3746707	Florentia	Roman city	Point(11.25666667 43.76861111)													https://en.wikipedia.org/wiki/Florentia_(Roman_city)
 413140	http://www.wikidata.org/entity/Q3983167	Temple of Clitumnus	medieval church in Campello sul Clitunno, Italy	Point(12.756929 42.84224)		26490				n97017430			428128STdC		125658124		https://en.wikipedia.org/wiki/Temple_of_Clitumnus
 413143	http://www.wikidata.org/entity/Q133875213	Forum Aurelii	ancient town on Via Aurelia, Montalto di Castro, Italy	Point(11.6067 42.3521)													
@@ -5344,7 +5344,7 @@ pleiades	item	itemLabel	itemDescription	coordinates	chronique_ids	dare_ids	geona
 413169	http://www.wikidata.org/entity/Q71609	Salto (river)	river in Italy	Point(12.89361111 42.38944444)											154614127		
 413170	http://www.wikidata.org/entity/Q4895226	Hispellum	Roman city in Umbria	Point(12.67 42.9917)									430127UHis				https://en.wikipedia.org/wiki/Hispellum
 413171	http://www.wikidata.org/entity/Q3785880	Histonium	ancient town, modern Vasto, Province of Chieti, Abruzzo, Italy	Point(14.70821944 42.11158889)										14478	316422923		
-413174	http://www.wikidata.org/entity/Q20458	Gubbio	Italian comune	Point(12.5772674 43.3517882)			6541111			n81035846				11852	302287555	11064	https://en.wikipedia.org/wiki/Gubbio
+413174	http://www.wikidata.org/entity/Q20458	Gubbio	Italian comune	Point(12.57889 43.3525)			6541111			n81035846				11852	302287555	11064	https://en.wikipedia.org/wiki/Gubbio
 413178	http://www.wikidata.org/entity/Q134383419	Interamna Nahars	Ancient Roman city	Point(12.6436548 42.56219435)		16793								14401			
 413179	http://www.wikidata.org/entity/Q13137	Teramo	Italian comune	Point(13.703911111 42.658852777)		16105	6541856	7009877					427137UInt				https://en.wikipedia.org/wiki/Teramo
 413180	http://www.wikidata.org/entity/Q1093472	Furlo Pass	Roman tunnel in Italy	Point(12.713713 43.638786)		17229											
@@ -5466,7 +5466,7 @@ pleiades	item	itemLabel	itemDescription	coordinates	chronique_ids	dare_ids	geona
 413345	http://www.wikidata.org/entity/Q15141693	Turano	river in Italy	Point(13.1864 42.0805)													
 413345	http://www.wikidata.org/entity/Q15141693	Turano	river in Italy	Point(12.7941 42.4399)													
 413345	http://www.wikidata.org/entity/Q15141693	Turano	river in Italy	Point(12.656 42.5298)													
-413346	http://www.wikidata.org/entity/Q242533	Civitavecchia	Italian comune	Point(11.8 42.1)		16706,35750	6536945			n80046118			421118UCCe		305126934		https://en.wikipedia.org/wiki/Civitavecchia
+413346	http://www.wikidata.org/entity/Q242533	Civitavecchia	Italian comune	Point(11.8 42.1)		35750,16706	6536945			n80046118			421118UCCe		305126934		https://en.wikipedia.org/wiki/Civitavecchia
 413347	http://www.wikidata.org/entity/Q188487	Lake Trasimeno	lake in Umbria, Italy	Point(12.1 43.14)			3165310			sh88000570			432121WTra		233859110		https://en.wikipedia.org/wiki/Lake_Trasimeno
 413349	http://www.wikidata.org/entity/Q20604	Trevi	Italian comune	Point(12.761666666 42.893333333)		16795	6540493			n94093707					247366618,153762152		https://en.wikipedia.org/wiki/Trevi,_Umbria
 413350	http://www.wikidata.org/entity/Q530591	Trebula Mutuesca	archaeological site in Monteleone Sabino, Italy	Point(12.86865 42.22767)		22712							422129UTre	32953	234796459		https://en.wikipedia.org/wiki/Trebula_Mutusca
@@ -5564,9 +5564,9 @@ pleiades	item	itemLabel	itemDescription	coordinates	chronique_ids	dare_ids	geona
 418516191	http://www.wikidata.org/entity/Q20008731	Regio XI Circus Maximus	the eleventh regio of imperial Rome, under Augustus's administrative reform, that took its name from the Circus Maximus, located in the valley between the Palatine and the Aventine hills											43717			https://en.wikipedia.org/wiki/Regio_XI_Circus_Maximus
 418645876	http://www.wikidata.org/entity/Q5921827	Rabat Tepe	Iranian national heritage site	Point(45.543055555 36.203055555)													https://en.wikipedia.org/wiki/Rabat_Tepe
 418729933	http://www.wikidata.org/entity/Q619477	Temple of Apollo	ancient Greek temple in Syracuse dated ca. 565 BC	Point(15.29305556 37.06388889)		26492											https://en.wikipedia.org/wiki/Temple_of_Apollo_(Syracuse)
-419293087	http://www.wikidata.org/entity/Q7284944	Rainsborough Camp	hillfort in Northamptonshire, England, UK	Point(-1.23507 52.0092)													https://en.wikipedia.org/wiki/Rainsborough_Camp
 419293087	http://www.wikidata.org/entity/Q7284944	Rainsborough Camp	hillfort in Northamptonshire, England, UK	Point(-1.23455 52.00947)													https://en.wikipedia.org/wiki/Rainsborough_Camp
 419293087	http://www.wikidata.org/entity/Q7284944	Rainsborough Camp	hillfort in Northamptonshire, England, UK	Point(-1.23493 52.0095)													https://en.wikipedia.org/wiki/Rainsborough_Camp
+419293087	http://www.wikidata.org/entity/Q7284944	Rainsborough Camp	hillfort in Northamptonshire, England, UK	Point(-1.23507 52.0092)													https://en.wikipedia.org/wiki/Rainsborough_Camp
 419380619	http://www.wikidata.org/entity/Q1924755	Meta Sudans	large monumental conical fountain in ancient Rome	Point(12.49066667 41.89008333)									419125AMSu				https://en.wikipedia.org/wiki/Meta_Sudans
 419672523	http://www.wikidata.org/entity/Q3662995	Castellum aquae		Point(14.484167 40.753221)													
 419907821	http://www.wikidata.org/entity/Q27686252	Casa di Apollo		Point(14.482819 40.752392)											158145857839523020630		
@@ -6066,9 +6066,9 @@ pleiades	item	itemLabel	itemDescription	coordinates	chronique_ids	dare_ids	geona
 433202	http://www.wikidata.org/entity/Q2165460	Villa Jovis	historical building in Capri, Italy	Point(14.262628 40.55823)		22396	10376261		2071610						239633710,11144648137140552576	7185	https://en.wikipedia.org/wiki/Villa_Jovis
 433208	http://www.wikidata.org/entity/Q663655	Volsci	italic Osco-Umbrian tribe in Ancient Italy										416133RVol	14452			https://en.wikipedia.org/wiki/Volsci
 433210	http://www.wikidata.org/entity/Q3563844	Volturnum	ancient city of Campania, Italy	Point(13.9417 41.0336)													
-433211	http://www.wikidata.org/entity/Q572191	Volturno	river in Italy	Point(14.070277777 41.636944444)			3163951			sh2001004771			410139WVol		240482709		https://en.wikipedia.org/wiki/Volturno
-433211	http://www.wikidata.org/entity/Q572191	Volturno	river in Italy	Point(14.056666666 41.091666666)			3163951			sh2001004771			410139WVol		240482709		https://en.wikipedia.org/wiki/Volturno
 433211	http://www.wikidata.org/entity/Q572191	Volturno	river in Italy	Point(13.9277981 41.024189)			3163951			sh2001004771			410139WVol		240482709		https://en.wikipedia.org/wiki/Volturno
+433211	http://www.wikidata.org/entity/Q572191	Volturno	river in Italy	Point(14.056666666 41.091666666)			3163951			sh2001004771			410139WVol		240482709		https://en.wikipedia.org/wiki/Volturno
+433211	http://www.wikidata.org/entity/Q572191	Volturno	river in Italy	Point(14.070277777 41.636944444)			3163951			sh2001004771			410139WVol		240482709		https://en.wikipedia.org/wiki/Volturno
 433307613	http://www.wikidata.org/entity/Q5710393	Helsby hill fort	hillfort in Cheshire West and Chester, Cheshire, England, UK	Point(-2.76222 53.273)												35222	https://en.wikipedia.org/wiki/Helsby_hill_fort
 433457819	http://www.wikidata.org/entity/Q208811	Panathenaic Stadium	stadium in Athens, Greece	Point(23.741111111 37.968333333)			6947713			sh2006007429			380237BPan		242769041		https://en.wikipedia.org/wiki/Panathenaic_Stadium
 43375550	http://www.wikidata.org/entity/Q1137979	Son Mercer de Baix	archaeological site in Ferreries, Spain	Point(4.006366 39.9545363)													
@@ -6791,8 +6791,8 @@ pleiades	item	itemLabel	itemDescription	coordinates	chronique_ids	dare_ids	geona
 462483	http://www.wikidata.org/entity/Q2210194	Sabucina	archaeological site in Caltanissetta, Italy	Point(14.119363 37.50244)		30247							375141XSab	38484	315169964		https://en.wikipedia.org/wiki/Sabucina
 462484	http://www.wikidata.org/entity/Q104416667	Saraceno di Favara	Roman villa in Sicily	Point(13.65470395 37.328924345)													
 462486	http://www.wikidata.org/entity/Q3952753	Scornavacche	archaeological site in Chiaramonte Gulfi, Italy	Point(14.580333333 37.0495)													
-462487	http://www.wikidata.org/entity/Q692847	Segesta	ancient city	Point(12.837567 37.940712)		22636	2523171						379128PAig		236392805		https://en.wikipedia.org/wiki/Segesta
 462487	http://www.wikidata.org/entity/Q692847	Segesta	ancient city	Point(12.863591 37.915905)		22636	2523171						379128PAig		236392805		https://en.wikipedia.org/wiki/Segesta
+462487	http://www.wikidata.org/entity/Q692847	Segesta	ancient city	Point(12.837567 37.940712)		22636	2523171						379128PAig		236392805		https://en.wikipedia.org/wiki/Segesta
 462489	http://www.wikidata.org/entity/Q952173	Selinunte	city of Sicily	Point(12.824722 37.583611)		22545	2523164			sh91003755			376128PSel	22286	304911342		https://en.wikipedia.org/wiki/Selinunte
 462491	http://www.wikidata.org/entity/Q952123	Sicani	ancient culture of Sicily														https://en.wikipedia.org/wiki/Sicani
 462492	http://www.wikidata.org/entity/Q4951156	Sicily	Italian island in the Mediterranean Sea	Point(14.266666666 37.566666666)			2523118				8254007				149921888		https://en.wikipedia.org/wiki/Sicily_(island)
@@ -6801,8 +6801,8 @@ pleiades	item	itemLabel	itemDescription	coordinates	chronique_ids	dare_ids	geona
 462494	http://www.wikidata.org/entity/Q134705	Strait of Messina	strait between Sicily and Calabria	Point(15.6325 38.245833333)			2524168				9746299				32146153190105252808,226890110		https://en.wikipedia.org/wiki/Strait_of_Messina
 462498	http://www.wikidata.org/entity/Q631432	Soluntum	ancient city on the northern coast of Sicily	Point(13.53138889 38.09305556)		22633	2523057						381135USol		304916169		https://en.wikipedia.org/wiki/Soluntum
 462498	http://www.wikidata.org/entity/Q631432	Soluntum	ancient city on the northern coast of Sicily	Point(13.527583 38.082466)		22633	2523057						381135USol		304916169		https://en.wikipedia.org/wiki/Soluntum
-462502	http://www.wikidata.org/entity/Q1235338	Simeto	river in Sicily	Point(14.8 37.8)			2523093						374150WSym	42518	240609851		https://en.wikipedia.org/wiki/Simeto
 462502	http://www.wikidata.org/entity/Q1235338	Simeto	river in Sicily	Point(15.090065 37.401119)			2523093						374150WSym	42518	240609851		https://en.wikipedia.org/wiki/Simeto
+462502	http://www.wikidata.org/entity/Q1235338	Simeto	river in Sicily	Point(14.8 37.8)			2523093						374150WSym	42518	240609851		https://en.wikipedia.org/wiki/Simeto
 462503	http://www.wikidata.org/entity/Q13670	Syracuse	Italian municipality	Point(15.2875 37.069166666)		16570	6542286			n81018794	11295783	syracuse_city			131280663,155400709	1913	https://en.wikipedia.org/wiki/Syracuse,_Sicily
 462506	http://www.wikidata.org/entity/Q199952	Taormina	Italian comune	Point(15.28565 37.85179)		16874	6537773			n79145882					139547239		https://en.wikipedia.org/wiki/Taormina
 462506	http://www.wikidata.org/entity/Q61465946	Tauromenium	ancient city and polis	Point(15.291388888 37.853055555)									379153PTau			3504	
@@ -6901,7 +6901,7 @@ pleiades	item	itemLabel	itemDescription	coordinates	chronique_ids	dare_ids	geona
 471886	http://www.wikidata.org/entity/Q283609	Assemini	Italian comune	Point(9.0048409 39.2896713)		35382	6537888								239059117		https://en.wikipedia.org/wiki/Assemini
 471889	http://www.wikidata.org/entity/Q2408002	Balares	Ancient population of Nuragic Sardinia														https://en.wikipedia.org/wiki/Balares
 471894	http://www.wikidata.org/entity/Q2904892	Bithia	archaeological site in Sardinia	Point(8.88527778 38.89583333)		36274							389089UBit	22117			https://en.wikipedia.org/wiki/Bithia,_Italy
-471899	http://www.wikidata.org/entity/Q1897	Cagliari	Italian municipality, capital of Sardinia	Point(9.116666666 39.216666666)		16177	6540125	7015596,7057472		n79021085			392091UKar	3239	126653885,315155036,134322728	3490	https://en.wikipedia.org/wiki/Cagliari
+471899	http://www.wikidata.org/entity/Q1897	Cagliari	Italian municipality, capital of Sardinia	Point(9.116666666 39.216666666)		16177	6540125	7057472,7015596		n79021085			392091UKar	3239	315155036,134322728,126653885	3490	https://en.wikipedia.org/wiki/Cagliari
 471902	http://www.wikidata.org/entity/Q233797	Castelsardo	Italian comune	Point(8.712777777 40.914444444)		30260	6539223	7003524		nr97022310					245132722		https://en.wikipedia.org/wiki/Castelsardo
 471905	http://www.wikidata.org/entity/Q3657181	Cape Teulada	cape of Sardinia	Point(8.651945 38.88)		41658	2522940										
 471906	http://www.wikidata.org/entity/Q279933	San Teodoro	Italian comune in Sardinia	Point(9.666666666 40.766666666)		30261	6541777	1137017		n2002041520					242742308,143261047		https://en.wikipedia.org/wiki/San_Teodoro,_Sardinia
@@ -6961,8 +6961,8 @@ pleiades	item	itemLabel	itemDescription	coordinates	chronique_ids	dare_ids	geona
 472048	http://www.wikidata.org/entity/Q2830434	Alalia	ancient polis of Corsica	Point(9.5106 42.1025)									421095PAla				
 472063	http://www.wikidata.org/entity/Q1784775	Ancient Corsica	history of island Corsica before the middle ages										420090IKyr				https://en.wikipedia.org/wiki/Ancient_Corsica
 472073	http://www.wikidata.org/entity/Q3073099	Fiumorbo	river in France	Point(9.44 41.98777778)			2989435										https://en.wikipedia.org/wiki/Fiumorbo
-472085	http://www.wikidata.org/entity/Q3399339	Porto	river in France	Point(8.88028 42.2697)			2985954										https://en.wikipedia.org/wiki/Porto_(river)
 472085	http://www.wikidata.org/entity/Q3399339	Porto	river in France	Point(8.69572 42.26632)			2985954										https://en.wikipedia.org/wiki/Porto_(river)
+472085	http://www.wikidata.org/entity/Q3399339	Porto	river in France	Point(8.88028 42.2697)			2985954										https://en.wikipedia.org/wiki/Porto_(river)
 472091	http://www.wikidata.org/entity/Q3247399	Prunelli	river in France	Point(8.7975 41.90555556)			2985199								94144647643449521546		https://en.wikipedia.org/wiki/Prunelli
 472096	http://www.wikidata.org/entity/Q507251	Mariana	Ancient Roman city	Point(9.495833333 42.539166666)		16892	2995774			sh2016002792			425950UMar				https://en.wikipedia.org/wiki/Mariana,_Corsica
 472098	http://www.wikidata.org/entity/Q2388186	Cape Feno	cape in Corsica	Point(9.0967 41.3916)			3018717	1010685									
@@ -7205,7 +7205,7 @@ pleiades	item	itemLabel	itemDescription	coordinates	chronique_ids	dare_ids	geona
 491614	http://www.wikidata.org/entity/Q640366	Haliacmon	river in Macedonia, Greece	Point(22.6407 40.4815)			736927						403218WHal				https://en.wikipedia.org/wiki/Haliacmon
 491614	http://www.wikidata.org/entity/Q640366	Haliacmon	river in Macedonia, Greece	Point(20.7813 40.3524)			736927						403218WHal				https://en.wikipedia.org/wiki/Haliacmon
 491615	http://www.wikidata.org/entity/Q60792956	Heracleustibus	populated place in ancient Macedonia	Point(23.295498 40.649544)													https://en.wikipedia.org/wiki/Heracleustibus
-491616	http://www.wikidata.org/entity/Q1607763	Heraclea Sintica	ancient city, archaeological site in southwestern Bulgaria	Point(23.263694444 41.449444444)		22699,21888							414233UHer	12145	282144647642682309409		https://en.wikipedia.org/wiki/Heraclea_Sintica
+491616	http://www.wikidata.org/entity/Q1607763	Heraclea Sintica	ancient city, archaeological site in southwestern Bulgaria	Point(23.263694444 41.449444444)		21888,22699							414233UHer	12145	282144647642682309409		https://en.wikipedia.org/wiki/Heraclea_Sintica
 491617	http://www.wikidata.org/entity/Q3785102	Herakleion	ancient city of Pieria	Point(22.64 39.97)									400226PHer				https://en.wikipedia.org/wiki/Heracleium_(Pieria)
 491619	http://www.wikidata.org/entity/Q3791683	Ichnae	ancient city of Macedonia	Point(22.57622 40.78104)		32115							408226PIch				https://en.wikipedia.org/wiki/Ichnae
 491620729	http://www.wikidata.org/entity/Q2385386	TT359	Theban tomb	Point(32.60061111 25.7275)													https://en.wikipedia.org/wiki/TT359
@@ -7428,8 +7428,8 @@ pleiades	item	itemLabel	itemDescription	coordinates	chronique_ids	dare_ids	geona
 501423	http://www.wikidata.org/entity/Q5529181	Gazoros	village in Serres, Greece	Point(23.775833333 41.025555555)		32327	736192						410238UGaz				https://en.wikipedia.org/wiki/Gazoros
 501427	http://www.wikidata.org/entity/Q65044019	Hadrianopolis	ancient city of Macedonia	Point(24.266675 41.13644)		32329							411243UHad				https://en.wikipedia.org/wiki/Hadrianopolis_(Macedonia)
 501428	http://www.wikidata.org/entity/Q11904208	Hadrianopolis	ancient city in Thrace										417266PHad				https://en.wikipedia.org/wiki/Orestias
-501430	http://www.wikidata.org/entity/Q500954	Arda	river in Bulgaria and Greece	Point(26.495 41.660833333)			733639								242271745		https://en.wikipedia.org/wiki/Arda_(Maritsa_tributary)
 501430	http://www.wikidata.org/entity/Q500954	Arda	river in Bulgaria and Greece	Point(24.6097 41.43)			733639								242271745		https://en.wikipedia.org/wiki/Arda_(Maritsa_tributary)
+501430	http://www.wikidata.org/entity/Q500954	Arda	river in Bulgaria and Greece	Point(26.495 41.660833333)			733639								242271745		https://en.wikipedia.org/wiki/Arda_(Maritsa_tributary)
 501432	http://www.wikidata.org/entity/Q204347	Maritsa	river in the Balkans	Point(26.030555555 40.738055555)			735315	7002660		sh88007012	11295262		407260WHeb		315129976		https://en.wikipedia.org/wiki/Maritsa
 501432	http://www.wikidata.org/entity/Q204347	Maritsa	river in the Balkans	Point(23.595888888 42.164805555)			735315	7002660		sh88007012	11295262		407260WHeb		315129976		https://en.wikipedia.org/wiki/Maritsa
 501434	http://www.wikidata.org/entity/Q6514	Dardanelles	strait in northwestern Turkey	Point(26.4 40.2)			749779			sh86004066	8254008		402264WHel		243410280		https://en.wikipedia.org/wiki/Dardanelles
@@ -7573,8 +7573,8 @@ pleiades	item	itemLabel	itemDescription	coordinates	chronique_ids	dare_ids	geona
 50299	http://www.wikidata.org/entity/Q136436891	Tarachoi	ancient tribe of eastern coastal Sri Lanka														
 50303	http://www.wikidata.org/entity/Q41496	Thanjavur	City in Tamil Nadu, India	Point(79.137806 10.787)			1254649	7016825		n81063325					124344432		https://en.wikipedia.org/wiki/Thanjavur
 503058495	http://www.wikidata.org/entity/Q17663393	Radwell Roman villa	ancient Roman structure in Radwell, North Hertfordshire, England, UK	Point(-0.203041 52.0041)												6562	
-50313	http://www.wikidata.org/entity/Q271044	Mahanadi	river in Odisha, India	Point(86.710833333 20.295277777)			1264446			sh92002076					244319737		https://en.wikipedia.org/wiki/Mahanadi
 50313	http://www.wikidata.org/entity/Q271044	Mahanadi	river in Odisha, India	Point(81.91 20.11)			1264446			sh92002076					244319737		https://en.wikipedia.org/wiki/Mahanadi
+50313	http://www.wikidata.org/entity/Q271044	Mahanadi	river in Odisha, India	Point(86.710833333 20.295277777)			1264446			sh92002076					244319737		https://en.wikipedia.org/wiki/Mahanadi
 503283123	http://www.wikidata.org/entity/Q127405077	Prata Quinctia	plot of land thought to have been the property of L. Quinctius Cincinnatus											65878			
 50338	http://www.wikidata.org/entity/Q6649003	Little Basses Reef Lighthouse	Offshore lighthouse in Sri Lanka	Point(81.730232 6.407297)													https://en.wikipedia.org/wiki/Little_Basses_Reef_Lighthouse
 503406424	http://www.wikidata.org/entity/Q794830	Aşıklı Höyük	Neolithic archaeological site near Aksaray, Turkey	Point(34.23 38.349)											308155105759676320004		https://en.wikipedia.org/wiki/A%C5%9F%C4%B1kl%C4%B1_H%C3%B6y%C3%BCk
@@ -7895,8 +7895,8 @@ pleiades	item	itemLabel	itemDescription	coordinates	chronique_ids	dare_ids	geona
 524253439	http://www.wikidata.org/entity/Q18925063	Palestra Grande	ruined structure in Pompei	Point(14.49395 40.75081)													
 524305133	http://www.wikidata.org/entity/Q1991217	Temple of Bacchus	ruins of the Greco-Roman period	Point(36.203944444 34.006066666)												7852	https://en.wikipedia.org/wiki/Temple_of_Bacchus
 524360868	http://www.wikidata.org/entity/Q28996562	Sarmizegetusa amphitheatre	Roman amphitheatre in Sarmizegetusa, Romania	Point(22.786 45.517)		24659										4288	
-524604228	http://www.wikidata.org/entity/Q12873267	Akontio	long ridge in Orchomenos municipality, Greece	Point(22.906388888 38.51)			252000						385229LAko				
 524604228	http://www.wikidata.org/entity/Q12873267	Akontio	long ridge in Orchomenos municipality, Greece	Point(22.95 38.4975)			252000						385229LAko				
+524604228	http://www.wikidata.org/entity/Q12873267	Akontio	long ridge in Orchomenos municipality, Greece	Point(22.906388888 38.51)			252000						385229LAko				
 524616090	http://www.wikidata.org/entity/Q3983278	Temple of Quirinus	ancient Roman temple built near the Capitolium Vetus	Point(12.49043056 41.90197222)													https://en.wikipedia.org/wiki/Temple_of_Quirinus
 524828266	http://www.wikidata.org/entity/Q55162252	Q55162252	grotto in Frasso Sabino, Italy	Point(12.8214556 42.2122373)													
 524994161	http://www.wikidata.org/entity/Q1237690	Regio VIII Aemilia	region of Augustan Italy														
@@ -8200,9 +8200,9 @@ pleiades	item	itemLabel	itemDescription	coordinates	chronique_ids	dare_ids	geona
 540694	http://www.wikidata.org/entity/Q895095	Boulis	ancient settlement of Phokis	Point(22.80919444 38.28219444)		29316							383228PBou				https://en.wikipedia.org/wiki/Bulis_(Phocis)
 540695	http://www.wikidata.org/entity/Q106564040	Boumeliteia (East Lokris)	archaic to Late Antique polis of Locris, known from inscriptions	Point(23.1767 38.6002)		29317							386232PBou				
 540699	http://www.wikidata.org/entity/Q750313	Calydon	ancient Greek city in Aetolia	Point(21.533275 38.372548)		21986		5004281			8254028		384215UKal		315168305		https://en.wikipedia.org/wiki/Calydon
-540700	http://www.wikidata.org/entity/Q1235405	Cephissus	river in central Greece	Point(22.5796 38.673)			259822				9688209		388228WKep				https://en.wikipedia.org/wiki/Cephissus_(Boeotia)
 540700	http://www.wikidata.org/entity/Q1235405	Cephissus	river in central Greece	Point(23.245277777 38.432222222)			259822				9688209		388228WKep				https://en.wikipedia.org/wiki/Cephissus_(Boeotia)
 540700	http://www.wikidata.org/entity/Q1235405	Cephissus	river in central Greece	Point(23.2452 38.432)			259822				9688209		388228WKep				https://en.wikipedia.org/wiki/Cephissus_(Boeotia)
+540700	http://www.wikidata.org/entity/Q1235405	Cephissus	river in central Greece	Point(22.5796 38.673)			259822				9688209		388228WKep				https://en.wikipedia.org/wiki/Cephissus_(Boeotia)
 540701	http://www.wikidata.org/entity/Q13574678	Chaeronea	ancient Greek city-state of Boeotia	Point(22.8434315 38.495182)		22857					10276460		385228PCha	33344			
 540702	http://www.wikidata.org/entity/Q60790567	Chalai	ancient settlement of Phthiotis, Greece	Point(22.56873 39.14917)									392224PCha				https://en.wikipedia.org/wiki/Chalai_(Thessaly)
 540703	http://www.wikidata.org/entity/Q21235810	Chalcis	ancient polis of Euboea	Point(23.5971 38.4624)							9718698		385236PCha				
@@ -8723,6 +8723,7 @@ pleiades	item	itemLabel	itemDescription	coordinates	chronique_ids	dare_ids	geona
 550597	http://www.wikidata.org/entity/Q620874	Ionia	historic region in western Asia Minor (modern-day Turkey)	Point(27.5 38.2)					2379490	sh2013001532	10267540	ionia	375275RIon	10710	172601768		https://en.wikipedia.org/wiki/Ionia
 550598	http://www.wikidata.org/entity/Q85769884	Ioudda	hypothesised town of ancient Lydia in western Asia Minor	Point(28.385837 38.66591)													https://en.wikipedia.org/wiki/Ioudda
 550599	http://www.wikidata.org/entity/Q65121163	Issa	ancient Greek town on Lesbos	Point(26.131466 39.207108)		29054							392261UIss				https://en.wikipedia.org/wiki/Issa_(Lesbos)
+550601	http://www.wikidata.org/entity/Q27958593	Gordos	ancient town in Lydia	Point(28.31421 38.876702)													https://en.wikipedia.org/wiki/Gordus_(Lydia)
 550603	http://www.wikidata.org/entity/Q135980020	Kabaki		Point(26.179872751 39.340968973)									393262FKab				
 550604	http://www.wikidata.org/entity/Q12878601	Kabirion	archaeological site on Lemnos island, Greece	Point(25.341666666 39.979166666)		36712							400253SKab				
 550605	http://www.wikidata.org/entity/Q85773338	Kaira	town of ancient Lydia	Point(27.883825 38.089037)													https://en.wikipedia.org/wiki/Kaira_(Lydia)
@@ -9629,6 +9630,7 @@ pleiades	item	itemLabel	itemDescription	coordinates	chronique_ids	dare_ids	geona
 575058530	http://www.wikidata.org/entity/Q3322513	Mount Bibele	Mountain in Italy	Point(11.3723 44.2708)											248768830		https://en.wikipedia.org/wiki/Mount_Bibele
 575328131	http://www.wikidata.org/entity/Q185461	Arameans	Christian Middle Eastern people														
 575914088	http://www.wikidata.org/entity/Q18747381	Emperor Claudius' sunken nymphaeum	archaeological site in Italy	Point(14.077276 40.82199)													
+575989749	http://www.wikidata.org/entity/Q136939582	Vici Luccei	place in the Forum Boarium of Ancient Rome near the Porta Flumentana														
 575996197	http://www.wikidata.org/entity/Q123046451	Villa dei Mosaici	Roman villa in Negrar di Valpollicella, Veneto, Italia	Point(10.94528 45.53817)													
 576118704	http://www.wikidata.org/entity/Q133255368	Q133255368		Point(12.434797038 41.975646471)													
 576118705	http://www.wikidata.org/entity/Q111465731	Terme Aquae Passeris	a Roman bath	Point(12.065647 42.414853)													
@@ -10243,10 +10245,10 @@ pleiades	item	itemLabel	itemDescription	coordinates	chronique_ids	dare_ids	geona
 59684	http://www.wikidata.org/entity/Q1125242	Meghna River	river in Bangladesh	Point(90.815833333 22.643055555)			1194490			sh2021008731							https://en.wikipedia.org/wiki/Meghna_River
 59692	http://www.wikidata.org/entity/Q624638	Arachosia	former country	Point(64.785897 30.016761)									315650RAra		313477879		https://en.wikipedia.org/wiki/Arachosia
 59693	http://www.wikidata.org/entity/Q8498	Arghandab River	river in Afghanistan	Point(64.386372 31.44741)			1148398			sh88006944					315129974		https://en.wikipedia.org/wiki/Arghandab_River
-59697	http://www.wikidata.org/entity/Q2140102	Kirthar Mountains	Mountain Range in Balochistan and Sindh provinces of Pakistan	Point(67.16667 27.0)			1173550,7098142,1350188								315171311		https://en.wikipedia.org/wiki/Kirthar_Mountains
-59697	http://www.wikidata.org/entity/Q2140102	Kirthar Mountains	Mountain Range in Balochistan and Sindh provinces of Pakistan	Point(67.15555556 27.0)			1173550,7098142,1350188								315171311		https://en.wikipedia.org/wiki/Kirthar_Mountains
-59697	http://www.wikidata.org/entity/Q2140102	Kirthar Mountains	Mountain Range in Balochistan and Sindh provinces of Pakistan	Point(67.62299 25.87293)			1173550,7098142,1350188								315171311		https://en.wikipedia.org/wiki/Kirthar_Mountains
+59697	http://www.wikidata.org/entity/Q2140102	Kirthar Mountains	Mountain Range in Balochistan and Sindh provinces of Pakistan	Point(67.15555556 27.0)			1350188,1173550,7098142								315171311		https://en.wikipedia.org/wiki/Kirthar_Mountains
+59697	http://www.wikidata.org/entity/Q2140102	Kirthar Mountains	Mountain Range in Balochistan and Sindh provinces of Pakistan	Point(67.62299 25.87293)			1350188,1173550,7098142								315171311		https://en.wikipedia.org/wiki/Kirthar_Mountains
 59697	http://www.wikidata.org/entity/Q2140102	Kirthar Mountains	Mountain Range in Balochistan and Sindh provinces of Pakistan	Point(67.2667 27.6633)			1173550,7098142,1350188								315171311		https://en.wikipedia.org/wiki/Kirthar_Mountains
+59697	http://www.wikidata.org/entity/Q2140102	Kirthar Mountains	Mountain Range in Balochistan and Sindh provinces of Pakistan	Point(67.16667 27.0)			1173550,1350188,7098142								315171311		https://en.wikipedia.org/wiki/Kirthar_Mountains
 59726	http://www.wikidata.org/entity/Q2881031	Balkh River	tributary of the Amu Darya in Afghanistan	Point(66.933333333 36.65)			1147289										https://en.wikipedia.org/wiki/Balkh_River
 59726	http://www.wikidata.org/entity/Q2881031	Balkh River	tributary of the Amu Darya in Afghanistan	Point(65.9217 37.1039)			1147289										https://en.wikipedia.org/wiki/Balkh_River
 59726	http://www.wikidata.org/entity/Q2881031	Balkh River	tributary of the Amu Darya in Afghanistan	Point(67.312 35.0187)			1147289										https://en.wikipedia.org/wiki/Balkh_River
@@ -10511,8 +10513,8 @@ pleiades	item	itemLabel	itemDescription	coordinates	chronique_ids	dare_ids	geona
 599864	http://www.wikidata.org/entity/Q49387437	Panormus	ancient harbor town of Caria	Point(27.22771 37.40567)			306217						374272HPan				https://en.wikipedia.org/wiki/Panormus_(Caria)
 599864	http://www.wikidata.org/entity/Q49387437	Panormus	ancient harbor town of Caria	Point(27.22682 37.3998)			306217						374272HPan				https://en.wikipedia.org/wiki/Panormus_(Caria)
 599866	http://www.wikidata.org/entity/Q17623236	Bargasa	City of ancient Caria	Point(27.7739858 37.0219849)		21434							370278UPar				https://en.wikipedia.org/wiki/Bargasa
-599867	http://www.wikidata.org/entity/Q20379949	Ancient Paros	ancient island polis in the Cyclades	Point(25.14722222 37.08472222)		29024							371252PPar				https://en.wikipedia.org/wiki/Paros_(city)
 599867	http://www.wikidata.org/entity/Q20379949	Ancient Paros	ancient island polis in the Cyclades	Point(25.1483 37.0844)		29024							371252PPar				https://en.wikipedia.org/wiki/Paros_(city)
+599867	http://www.wikidata.org/entity/Q20379949	Ancient Paros	ancient island polis in the Cyclades	Point(25.14722222 37.08472222)		29024							371252PPar				https://en.wikipedia.org/wiki/Paros_(city)
 599868	http://www.wikidata.org/entity/Q201272	Paros	Greek island, part of the Cyclades	Point(25.183333333 37.05)			255720		2181422	n85137342	8253993				156004022		https://en.wikipedia.org/wiki/Paros
 59987	http://www.wikidata.org/entity/Q132450512	Patala	ancient city on the Indus described by Greek and Latin authors														
 599870	http://www.wikidata.org/entity/Q65068769	Passala	town of ancient Caria	Point(27.649641 37.250317)		29027							373276UPas				https://en.wikipedia.org/wiki/Passala
@@ -10536,8 +10538,8 @@ pleiades	item	itemLabel	itemDescription	coordinates	chronique_ids	dare_ids	geona
 599915	http://www.wikidata.org/entity/Q65121156	Pyrrha	ancient Greek town of Caria	Point(27.38243 37.55694)													https://en.wikipedia.org/wiki/Pyrrha_(Caria)
 599918	http://www.wikidata.org/entity/Q63994838	Rheneia	ancient Greek city and polis	Point(25.213333333 37.411944444)									374252PRhe				
 599919	http://www.wikidata.org/entity/Q1475379	Rineia	island off Delos, Greece	Point(25.233333333 37.4)		30786	254318			sh87007515	11259221		374252PRhe				https://en.wikipedia.org/wiki/Rineia
+599924	http://www.wikidata.org/entity/Q1811108	Samiopoula	island off Samos, Greece	Point(26.794 37.628)		30788	443636,254121						377268XSam				https://en.wikipedia.org/wiki/Samiopoula
 599924	http://www.wikidata.org/entity/Q1811108	Samiopoula	island off Samos, Greece	Point(26.79278 37.62611)		30788	443636,254121						377268XSam				https://en.wikipedia.org/wiki/Samiopoula
-599924	http://www.wikidata.org/entity/Q1811108	Samiopoula	island off Samos, Greece	Point(26.794 37.628)		30788	254121,443636						377268XSam				https://en.wikipedia.org/wiki/Samiopoula
 599925	http://www.wikidata.org/entity/Q13580795	Samos	ancient Greek city-state	Point(26.93833333 37.69083333)									377269PSam				
 599926	http://www.wikidata.org/entity/Q156882	Samos	Greek island in Aegean Sea	Point(26.8333 37.75)			254114	7002673	2307656	n2012058696	8254131				267789117,159286977		https://en.wikipedia.org/wiki/Samos
 599928	http://www.wikidata.org/entity/Q776776	Schoinoussa	island of the Lesser Cyclades group, Greece	Point(25.521666666 36.875)			253651						368258ISch				https://en.wikipedia.org/wiki/Schoinoussa
@@ -10557,8 +10559,8 @@ pleiades	item	itemLabel	itemDescription	coordinates	chronique_ids	dare_ids	geona
 599956	http://www.wikidata.org/entity/Q4822274	Salih Ada	island in Turkey	Point(27.52 37.155833333)			302051										https://en.wikipedia.org/wiki/Salih_Ada
 599956	http://www.wikidata.org/entity/Q4822274	Salih Ada	island in Turkey	Point(27.513888888 37.153333333)			302051										https://en.wikipedia.org/wiki/Salih_Ada
 599957	http://www.wikidata.org/entity/Q65068781	Teichiussa	ancient Greek town	Point(27.457993 37.353179)									374275UTei				https://en.wikipedia.org/wiki/Teichiussa
+599958	http://www.wikidata.org/entity/Q1934034	Telendos	island near Kalymnos, Greece	Point(26.908333333 37.008888888)		43402	253015,253014						370269ITel				https://en.wikipedia.org/wiki/Telendos
 599958	http://www.wikidata.org/entity/Q1934034	Telendos	island near Kalymnos, Greece	Point(26.916666666 37.0)		43402	253014,253015						370269ITel				https://en.wikipedia.org/wiki/Telendos
-599958	http://www.wikidata.org/entity/Q1934034	Telendos	island near Kalymnos, Greece	Point(26.908333333 37.008888888)		43402	253014,253015						370269ITel				https://en.wikipedia.org/wiki/Telendos
 599959	http://www.wikidata.org/entity/Q1642438	Telmessos	Town of ancient Caria	Point(27.319 37.0488)									370273UTel				https://en.wikipedia.org/wiki/Telmessos_(Caria)
 599961	http://www.wikidata.org/entity/Q898718	Tilos	island in Greece	Point(27.366666666 36.433333333)		43446	252863			n2015026767			365273PTel		315125210		https://en.wikipedia.org/wiki/Tilos
 599962	http://www.wikidata.org/entity/Q65068466	Tendeba	town of ancient Caria	Point(28.221031 37.277111)													https://en.wikipedia.org/wiki/Tendeba
@@ -11058,6 +11060,7 @@ pleiades	item	itemLabel	itemDescription	coordinates	chronique_ids	dare_ids	geona
 638871	http://www.wikidata.org/entity/Q1673974	Isinda	ancient city in Lydia	Point(29.699 36.199)													https://en.wikipedia.org/wiki/Isinda_(Lycia)
 638872	http://www.wikidata.org/entity/Q1673973	Isinda	ancient city in Pisidia	Point(30.1619 37.0675)													https://en.wikipedia.org/wiki/Isinda_(Pisidia)
 638874	http://www.wikidata.org/entity/Q65064494	Istlada	ancient city in Anatolia and part of UNESCO World Heritage Site	Point(29.8877 36.2185)													https://en.wikipedia.org/wiki/Istlada
+638883	http://www.wikidata.org/entity/Q5016553	Cadmus	river														https://en.wikipedia.org/wiki/Cadmus_(river)
 638884	http://www.wikidata.org/entity/Q797552	Babadağ	mountain in Denizli Province, Turkey	Point(28.87801389 37.73199722)													https://en.wikipedia.org/wiki/Babada%C4%9F_(mountain,_Denizli)
 638885	http://www.wikidata.org/entity/Q1720985	Kadyanda	ancient city in Lycia, now in modern Turkey	Point(29.23589 36.7154)		21479							367292UKad			24445	https://en.wikipedia.org/wiki/Cadyanda
 638888	http://www.wikidata.org/entity/Q65067934	Kalabantia	town of ancient Lycia	Point(29.134034521 36.42974603)		27735							364291UKal				https://en.wikipedia.org/wiki/Kalabantia
@@ -11627,6 +11630,7 @@ pleiades	item	itemLabel	itemDescription	coordinates	chronique_ids	dare_ids	geona
 668784750	http://www.wikidata.org/entity/Q3396620	Ponte Leproso	bridge of the ancient Via Appia, at the entrance to Benevento	Point(14.765439 41.131394)		41552											
 66908841	http://www.wikidata.org/entity/Q732597	Via Aemilia	ancient roman road														https://en.wikipedia.org/wiki/Via_Aemilia
 669962521	http://www.wikidata.org/entity/Q20003648	Kordin III Temple		Point(14.509 35.877083333)													
+670131991	http://www.wikidata.org/entity/Q136922065	Q136922065															
 670424966	http://www.wikidata.org/entity/Q7018771	Newport Arch	remains of a 3rd-century Roman gate in the city of Lincoln, Lincolnshire, England, UK	Point(-0.53819 53.23721)													https://en.wikipedia.org/wiki/Newport_Arch
 670424968	http://www.wikidata.org/entity/Q17530586	Multangular Tower And Wall Attached To South East	Grade I listed building in York, United Kingdom	Point(-1.08683 53.9613)													
 670733374	http://www.wikidata.org/entity/Q27685765	Casa del Triclinio all'Aperto	a Roman domus in Pompeii	Point(14.4927575 40.751061)													
@@ -11716,9 +11720,9 @@ pleiades	item	itemLabel	itemDescription	coordinates	chronique_ids	dare_ids	geona
 678183	http://www.wikidata.org/entity/Q849470	Yarmouk River	river	Point(35.57339 32.6401)			7839000			sh00001862					315139306		https://en.wikipedia.org/wiki/Yarmuk_(river)
 678183	http://www.wikidata.org/entity/Q849470	Yarmouk River	river	Point(35.56426 32.64779)			7839000			sh00001862					315139306		https://en.wikipedia.org/wiki/Yarmuk_(river)
 678185	http://www.wikidata.org/entity/Q1620075	Hippos	human settlement	Point(35.65944444 32.77888889)		21659				sh95006634			328357UHip		315170204		https://en.wikipedia.org/wiki/Hippos_(Golan_Heights)
+678194	http://www.wikidata.org/entity/Q798460	Zarqa River	Jordanian river near Amman, tributary to the lower Jordan River	Point(35.543055555 32.11525)			245887								315527640		https://en.wikipedia.org/wiki/Zarqa_River
 678194	http://www.wikidata.org/entity/Q798460	Zarqa River	Jordanian river near Amman, tributary to the lower Jordan River	Point(36.158333333 32.165555555)			245887								315527640		https://en.wikipedia.org/wiki/Zarqa_River
 678194	http://www.wikidata.org/entity/Q798460	Zarqa River	Jordanian river near Amman, tributary to the lower Jordan River	Point(35.801666666 32.191666666)			245887								315527640		https://en.wikipedia.org/wiki/Zarqa_River
-678194	http://www.wikidata.org/entity/Q798460	Zarqa River	Jordanian river near Amman, tributary to the lower Jordan River	Point(35.543055555 32.11525)			245887								315527640		https://en.wikipedia.org/wiki/Zarqa_River
 678196	http://www.wikidata.org/entity/Q172251	Yabrud	city in Syria	Point(36.657222222 33.967222222)		33321	162627			nr98033598					144701969		https://en.wikipedia.org/wiki/Yabroud
 678197	http://www.wikidata.org/entity/Q49004214	Isdradela	ancient town of Israel	Point(35.3275 32.557777777)			385898										
 678201	http://www.wikidata.org/entity/Q1974434	Yodfat	human settlement in Israel	Point(35.273611111 32.836944444)		22172	293162						328352UIot		316601863		https://en.wikipedia.org/wiki/Yodfat
@@ -11833,6 +11837,7 @@ pleiades	item	itemLabel	itemDescription	coordinates	chronique_ids	dare_ids	geona
 687315572	http://www.wikidata.org/entity/Q7697397	Tell Fray	archaeological site in ar-Raqqah, Syria	Point(38.384198 35.903545)													https://en.wikipedia.org/wiki/Tell_Fray
 687529965	http://www.wikidata.org/entity/Q2202565	Roman Villa of Rabaçal	building or structure in Penela, Portugal	Point(-8.45772 40.038399)													https://en.wikipedia.org/wiki/Roman_villa_of_Raba%C3%A7al
 687584524	http://www.wikidata.org/entity/Q25410534	Nuraghe Sa Domu 'e s'Orcu	archaeological site in Domusnovas, Italy	Point(8.640161 39.323842)													
+687792644	http://www.wikidata.org/entity/Q2734384	Theatre of Balbus	theatre in Ancient Rome	Point(12.4786 41.8944)									419125BTBa		140346262		https://en.wikipedia.org/wiki/Theatre_of_Balbus
 687826	http://www.wikidata.org/entity/Q2377463	Anthedon	ancient city on coast of Palestine	Point(34.452 31.541)		21690							316345UAnt	11116			https://en.wikipedia.org/wiki/Anthedon_(Palestine)
 687828	http://www.wikidata.org/entity/Q568521	Migdal Afek	National park, Jewish settlement in the land of Israel from the second temple period	Point(34.95694444 32.08083333)											316601658		https://en.wikipedia.org/wiki/Migdal_Afek
 687838	http://www.wikidata.org/entity/Q171639	Ashdod	city in Israel	Point(34.650277777 31.797777777)		21687	295629	6000548		n83130512			318347UAzo		12148574335324430001		https://en.wikipedia.org/wiki/Ashdod
@@ -12214,7 +12219,7 @@ pleiades	item	itemLabel	itemDescription	coordinates	chronique_ids	dare_ids	geona
 727086379	http://www.wikidata.org/entity/Q3662646	Castle of Lagopesole	castle in Avigliano, Italy	Point(15.733157 40.807082)			11185189			no2017048874					315163240		
 727087	http://www.wikidata.org/entity/Q23938824	Rosetta Branch		Point(30.365 31.468611111)			350204										
 727088	http://www.wikidata.org/entity/Q603841	Bubastis	archaeological site in Egypt	Point(31.51 30.572777777)		21715	358710						306315UBub	463,462		10924	https://en.wikipedia.org/wiki/Bubastis
-727094	http://www.wikidata.org/entity/Q739278	Buto	archaeological site in Egypt	Point(30.744722222 31.196388888)		21702,42423	358590				11310437		312307UBou	3685			https://en.wikipedia.org/wiki/Buto
+727094	http://www.wikidata.org/entity/Q739278	Buto	archaeological site in Egypt	Point(30.744722222 31.196388888)		42423,21702	358590				11310437		312307UBou	3685			https://en.wikipedia.org/wiki/Buto
 727097	http://www.wikidata.org/entity/Q1145180	Canopus	ancient Egyptian town	Point(30.08333333 31.3)		21706	358565				9721296		313300UCan	1001			https://en.wikipedia.org/wiki/Canopus,_Egypt
 727099	http://www.wikidata.org/entity/Q1069483	Chemmis		Point(30.77555556 31.18444444)		42424							312307UChe				
 727101	http://www.wikidata.org/entity/Q3623994	Arsinoe	ancient city on the Gulf of Suez	Point(32.460609 29.897498)									300326UArs				https://en.wikipedia.org/wiki/Arsinoe_(Gulf_of_Suez)
@@ -12250,8 +12255,8 @@ pleiades	item	itemLabel	itemDescription	coordinates	chronique_ids	dare_ids	geona
 727162	http://www.wikidata.org/entity/Q1492594	Menouthis	Sacred city in Ancient Egypt	Point(30.133333 31.283333)		28493							313300UMen				https://en.wikipedia.org/wiki/Menouthis
 727169	http://www.wikidata.org/entity/Q137721	Naucratis	city of Ancient Egypt, on the Canopic branch of the Nile river	Point(30.616667 30.9)		21703	351274						309306UNau	1424			https://en.wikipedia.org/wiki/Naucratis
 727171	http://www.wikidata.org/entity/Q111153535	Nesyt	administrative division of Ancient Egypt											2641			
-727172	http://www.wikidata.org/entity/Q3392	Nile	major river in northeastern Africa	Point(30.3667 31.4653)			351036	1127805		sh85091951	8253947		312301WNil	3943	316429432		https://en.wikipedia.org/wiki/Nile
 727172	http://www.wikidata.org/entity/Q3392	Nile	major river in northeastern Africa	Point(32.5055 15.640138888)			351036	1127805		sh85091951	8253947		312301WNil	3943	316429432		https://en.wikipedia.org/wiki/Nile
+727172	http://www.wikidata.org/entity/Q3392	Nile	major river in northeastern Africa	Point(30.3667 31.4653)			351036	1127805		sh85091951	8253947		312301WNil	3943	316429432		https://en.wikipedia.org/wiki/Nile
 727176	http://www.wikidata.org/entity/Q1775706	Nitria	human settlement in Egypt	Point(30.385628 30.928651)		21025							309303UNit				https://en.wikipedia.org/wiki/Nitria_(monastic_site)
 727185	http://www.wikidata.org/entity/Q3894902	Papremi				42425							307307UPap	6297			
 727192	http://www.wikidata.org/entity/Q1145715	Pelusium	ancient Egyptian archaeological site	Point(32.6 31.05)		21695	350867	6004608		sh00005129	9721297		310325UPel	1662	247370695		https://en.wikipedia.org/wiki/Pelusium
@@ -12816,6 +12821,7 @@ pleiades	item	itemLabel	itemDescription	coordinates	chronique_ids	dare_ids	geona
 79449	http://www.wikidata.org/entity/Q2155554	River Taw	river in Devon, United Kingdom	Point(-4.182777777 51.068805555)		43843	2636171			sh2010013845							https://en.wikipedia.org/wiki/River_Taw
 79450	http://www.wikidata.org/entity/Q369528	River Tame	river in the West Midlands county, England	Point(-1.7173 52.7312)		43825	2636282			sh2015001143				19792			https://en.wikipedia.org/wiki/River_Tame,_West_Midlands
 794553250	http://www.wikidata.org/entity/Q42942455	Los Casarejos	cultural property in Valle de Losa, Spain	Point(-3.190563 42.963547)		44355											
+79456	http://www.wikidata.org/entity/Q124369960	Rapsley Roman Villa	ancient Roman structure near Ewhurst, Surrey, UK	Point(-0.456164 51.162825)		25681										6771	
 79459	http://www.wikidata.org/entity/Q17640912	Romano-British temple and enclosure on Farley Heath	archaeological site in Albury, Guildford, England, UK	Point(-0.496164 51.194)										15558			
 79464	http://www.wikidata.org/entity/Q17647797	Site of Roman villa NNE of Fifehead Mill	archaeological site in Fifehead Neville, Dorset, England, UK	Point(-2.32435 50.9003)													
 79466	http://www.wikidata.org/entity/Q103161984	Fishbourne (Samian Ware Discovery Site)	Fishbourne as Samian Ware discovery site	Point(-0.810943 50.839269)													
@@ -12891,7 +12897,7 @@ pleiades	item	itemLabel	itemDescription	coordinates	chronique_ids	dare_ids	geona
 79576	http://www.wikidata.org/entity/Q103177530	Long Melford (Samian Ware Discovery Site)	Long Melford as Samian Ware discovery site	Point(0.716666 52.066665)													
 79578	http://www.wikidata.org/entity/Q6699587	Luentinum	Roman fort and mining settlement in Carmarthenshire, Wales	Point(-3.9616 52.0452)										14835			https://en.wikipedia.org/wiki/Luentinum
 795784	http://www.wikidata.org/entity/Q3517508	Temple of Beit el-Wali	temple in Egypt	Point(32.866388888 23.961944444)											305274159		https://en.wikipedia.org/wiki/Temple_of_Beit_el-Wali
-795787	http://www.wikidata.org/entity/Q56215235	Bir Abraq	spring, village, site with rock inscriptions and a Graeco-Roman fort in the Eastern desert of Egypt	Point(34.796666666 23.416111111)		34491	362967										
+795787	http://www.wikidata.org/entity/Q56215235	Bir Abraq	spring, village, site with rock inscriptions and a Graeco-Roman fort in the Eastern desert of Egypt	Point(34.796666666 23.416111111)		34491	362967							3565			
 79579	http://www.wikidata.org/entity/Q2202563	Low Ham Roman Villa	Roman archaeological site in England	Point(-2.805277777 51.057222222)		25729											https://en.wikipedia.org/wiki/Low_Ham_Roman_Villa
 795790	http://www.wikidata.org/entity/Q934374	Blemmyes	ancient nomadic African kingdom											444			https://en.wikipedia.org/wiki/Blemmyes
 795794	http://www.wikidata.org/entity/Q11948049	second cataract of the Nile		Point(30.97 21.48)			381230							11232			
@@ -13025,7 +13031,7 @@ pleiades	item	itemLabel	itemDescription	coordinates	chronique_ids	dare_ids	geona
 79754	http://www.wikidata.org/entity/Q17645586	Lippen Wood Roman villa	ancient Roman structure in West Meon, Winchester, England, UK	Point(-1.10031 51.0165)													
 79756	http://www.wikidata.org/entity/Q17641854	Roman villa N of Whitestaunton	ancient Roman structure in Whitestaunton, South Somerset, England, UK	Point(-3.02471 50.8903)													
 79761	http://www.wikidata.org/entity/Q124685643	Castle Hill Roman Villa	archaeological site near Ipswich, Suffolk, England, UK	Point(1.131981 52.076131)													https://en.wikipedia.org/wiki/Castle_Hill_Roman_villa
-79762	http://www.wikidata.org/entity/Q1012502	Wick	town and royal burgh in Caithness, Highland, Scotland, UK	Point(-3.09171 58.44317)			2633982	2120476,2082583,2094549,2035912							126146153201805252807		https://en.wikipedia.org/wiki/Wick,_Caithness
+79762	http://www.wikidata.org/entity/Q1012502	Wick	town and royal burgh in Caithness, Highland, Scotland, UK	Point(-3.09171 58.44317)			2633982	2094549,2035912,2082583,2120476							126146153201805252807		https://en.wikipedia.org/wiki/Wick,_Caithness
 79763	http://www.wikidata.org/entity/Q103200147	Wilderspool (Samian Ware Discovery Site)	Wilderspool as Samian Ware discovery site	Point(-2.586209 53.369159)													
 79763	http://www.wikidata.org/entity/Q17640811	Roman settlement at Wilderspool	archaeological site in Warrington, Cheshire, England, UK	Point(-2.58543 53.3738)										14629			
 79768	http://www.wikidata.org/entity/Q1690886	Woodchester Roman Villa	Roman villa in Gloucestershire, England, UK	Point(-2.23333 51.7262)		23366											https://en.wikipedia.org/wiki/Woodchester_Roman_Villa
@@ -13050,8 +13056,8 @@ pleiades	item	itemLabel	itemDescription	coordinates	chronique_ids	dare_ids	geona
 801825162	http://www.wikidata.org/entity/Q1340954	Sirkap	archaeological site near Taxila, Punjab, Pakistan	Point(72.82916667 33.75611111)		42946	1339217									18344	https://en.wikipedia.org/wiki/Sirkap
 80236838	http://www.wikidata.org/entity/Q2894013	Ägelmoos	archaeological site in Beinwil am See in the canton of Aargau, Switzerland	Point(8.2065 47.2774)													https://en.wikipedia.org/wiki/Beinwil_am_See%E2%80%93%C3%84gelmoos
 802858342	http://www.wikidata.org/entity/Q3489535	Solnitsata	prehistoric town near Provadia, Bulgaria	Point(27.472528 43.128417)													https://en.wikipedia.org/wiki/Solnitsata
-802931429	http://www.wikidata.org/entity/Q1010980	Belvoir Fortress	crusader castle in Israel	Point(35.521388888 32.595555555)			294447								316747244		https://en.wikipedia.org/wiki/Belvoir_Castle_(Israel)
 802931429	http://www.wikidata.org/entity/Q1010980	Belvoir Fortress	crusader castle in Israel	Point(35.521389 32.595556)			294447								316747244		https://en.wikipedia.org/wiki/Belvoir_Castle_(Israel)
+802931429	http://www.wikidata.org/entity/Q1010980	Belvoir Fortress	crusader castle in Israel	Point(35.521388888 32.595555555)			294447								316747244		https://en.wikipedia.org/wiki/Belvoir_Castle_(Israel)
 802981949	http://www.wikidata.org/entity/Q2636168	Vardadzor	village in Gegharkunik Province of Armenia	Point(45.1875 40.1917)			617023,859714										https://en.wikipedia.org/wiki/Vardadzor
 803371623	http://www.wikidata.org/entity/Q20536507	Uzunqïr														98087	
 803636721	http://www.wikidata.org/entity/Q2293161	Monte Catria	mountain in Italy	Point(12.70444444 43.46166667)			3179352			sh2005006157					248743396		https://en.wikipedia.org/wiki/Monte_Catria
@@ -13498,9 +13504,9 @@ pleiades	item	itemLabel	itemDescription	coordinates	chronique_ids	dare_ids	geona
 857207	http://www.wikidata.org/entity/Q65070153	Heracleium	Ancient town on the Black Sea in Turkey	Point(37.025822 41.245644)													https://en.wikipedia.org/wiki/Heracleium_(Pontus)
 857212	http://www.wikidata.org/entity/Q65048881	Libiopolis	ancient Anatolian town	Point(39.198236 41.068855)													https://en.wikipedia.org/wiki/Libiopolis
 857216	http://www.wikidata.org/entity/Q6077754	Mert River	river in Turkey, the ancient Lykastos	Point(36.351944 41.278889)				7710127									https://en.wikipedia.org/wiki/Mert_River
-857217	http://www.wikidata.org/entity/Q3045328	Kelkit River	river in Turkey	Point(39.4793 40.1315)			743536						408365WLyk				https://en.wikipedia.org/wiki/Kelkit_River
-857217	http://www.wikidata.org/entity/Q3045328	Kelkit River	river in Turkey	Point(36.5095 40.7657)			743536						408365WLyk				https://en.wikipedia.org/wiki/Kelkit_River
 857217	http://www.wikidata.org/entity/Q3045328	Kelkit River	river in Turkey	Point(36.50891 40.76189)			743536						408365WLyk				https://en.wikipedia.org/wiki/Kelkit_River
+857217	http://www.wikidata.org/entity/Q3045328	Kelkit River	river in Turkey	Point(36.5095 40.7657)			743536						408365WLyk				https://en.wikipedia.org/wiki/Kelkit_River
+857217	http://www.wikidata.org/entity/Q3045328	Kelkit River	river in Turkey	Point(39.4793 40.1315)			743536						408365WLyk				https://en.wikipedia.org/wiki/Kelkit_River
 857220	http://www.wikidata.org/entity/Q11934546	Magabula	road station mentioned in the Peutinger Table along the road from Comana to Nicopolis in Pontus Polemoniacus	Point(37.039089 40.383948)													
 857232	http://www.wikidata.org/entity/Q19296191	Melet Cayi	river of northeast Turkey, the ancient Melanthios	Point(37.9339 40.98267)				7710828									
 857232	http://www.wikidata.org/entity/Q19296191	Melet Cayi	river of northeast Turkey, the ancient Melanthios	Point(37.69655609 40.50611115)				7710828									
@@ -13531,8 +13537,8 @@ pleiades	item	itemLabel	itemDescription	coordinates	chronique_ids	dare_ids	geona
 857300	http://www.wikidata.org/entity/Q11946620	Sagylium	fortress in ancient Pontus	Point(35.339127 41.077969)													https://en.wikipedia.org/wiki/Sagylium
 857302	http://www.wikidata.org/entity/Q3651325	Sanigs	ancient tribe of Caucasian Iberia														https://en.wikipedia.org/wiki/Sanigs
 857307	http://www.wikidata.org/entity/Q85799801	Saurania	town of ancient Pontus	Point(37.59982 40.697917)										41390			https://en.wikipedia.org/wiki/Saurania
-857317	http://www.wikidata.org/entity/Q19275597	Bolaman Çayı	river in Turkey	Point(37.525482 41.023896)			750527								315164367		
 857317	http://www.wikidata.org/entity/Q19275597	Bolaman Çayı	river in Turkey	Point(37.525 41.024)			750527								315164367		
+857317	http://www.wikidata.org/entity/Q19275597	Bolaman Çayı	river in Turkey	Point(37.525482 41.023896)			750527								315164367		
 857321	http://www.wikidata.org/entity/Q107557833	Sinope	ancient Greek city-state of the Black Sea, predecessor to Sinop, Turkey	Point(35.143 42.025)							9746391		420351PSin	2141			
 857321	http://www.wikidata.org/entity/Q599416	Sinop	central district and city in Turkey	Point(35.151111111 42.026666666)		21208	739600			n85166456			420351PSin		158342544,4068170868754022930007		https://en.wikipedia.org/wiki/Sinop,_Turkey
 857333	http://www.wikidata.org/entity/Q111880129	Stameneia	ancient Greek city	Point(37.704166666 41.112777777)													
@@ -13776,6 +13782,7 @@ pleiades	item	itemLabel	itemDescription	coordinates	chronique_ids	dare_ids	geona
 877549424	http://www.wikidata.org/entity/Q1646054	Ancient Greek theatre of Pergamon	theatre at the castle hill in Pergamon, Turkey	Point(27.183405 39.131787)													
 877655066	http://www.wikidata.org/entity/Q29002586	Tomen y Mur amphitheatre	Roman amphitheatre in Gwynedd, United Kingdom	Point(-3.923 52.932)												4347	
 877963847	http://www.wikidata.org/entity/Q126374488	Arch of Caius and Lucius Caesar	arch in Pompei, Italy	Point(14.484314 40.750016)													
+87797229	http://www.wikidata.org/entity/Q106611058	Sorgenti della Nova	Bronze Age settlement	Point(11.6810439 42.593563)													
 878103249	http://www.wikidata.org/entity/Q2066634	Gialia Monastery		Point(32.555 35.0895)													https://en.wikipedia.org/wiki/Gialia_Monastery
 878157790	http://www.wikidata.org/entity/Q12061402	Lunt Roman Fort	Roman fort in Warwickshire, England, UK	Point(-1.49601 52.3735)													https://en.wikipedia.org/wiki/Lunt_Roman_Fort
 878157790	http://www.wikidata.org/entity/Q12061402	Lunt Roman Fort	Roman fort in Warwickshire, England, UK	Point(-1.496571 52.37272)													https://en.wikipedia.org/wiki/Lunt_Roman_Fort
@@ -13784,6 +13791,7 @@ pleiades	item	itemLabel	itemDescription	coordinates	chronique_ids	dare_ids	geona
 878261409	http://www.wikidata.org/entity/Q130469920	Roman Theater at Cillium		Point(8.799341 35.1676522)													
 879109673	http://www.wikidata.org/entity/Q117338124	Temple of Iuno Sospita (Lanuvium)		Point(12.6988018 41.6779167)												61642	
 879502263	http://www.wikidata.org/entity/Q42609741	Roman Theatre of Thignica	ancient Roman theatre in Ain Tounga, Tunisia, a listed monument of Tunisia	Point(9.362426 36.522862)													
+879707568	http://www.wikidata.org/entity/Q136908562	Podere Cosciano		Point(10.798056 43.320278)													
 879985348	http://www.wikidata.org/entity/Q3804132	Italia Annonaria															
 880264862	http://www.wikidata.org/entity/Q4228288	Yiftahel	archaeological site in Lower Galilee, Israel	Point(35.2277 32.7554)											46148570734724312490		https://en.wikipedia.org/wiki/Yiftahel
 880325202	http://www.wikidata.org/entity/Q491724	Sant'Agata di Militello	Italian comune	Point(14.63332 38.06805)			6537770										https://en.wikipedia.org/wiki/Sant%27Agata_di_Militello
@@ -13903,8 +13911,8 @@ pleiades	item	itemLabel	itemDescription	coordinates	chronique_ids	dare_ids	geona
 89097	http://www.wikidata.org/entity/Q4708853	Alauna	Roman fort and settlement on the site of present-day Maryport in Cumbria, England, UK	Point(-3.491166666 54.723063888)										14569			https://en.wikipedia.org/wiki/Alauna_(Maryport)
 89097	http://www.wikidata.org/entity/Q4708853	Alauna	Roman fort and settlement on the site of present-day Maryport in Cumbria, England, UK	Point(-3.49127 54.7224)										14569			https://en.wikipedia.org/wiki/Alauna_(Maryport)
 89097	http://www.wikidata.org/entity/Q4708853	Alauna	Roman fort and settlement on the site of present-day Maryport in Cumbria, England, UK	Point(-3.493978 54.720936)										14569			https://en.wikipedia.org/wiki/Alauna_(Maryport)
-89100	http://www.wikidata.org/entity/Q1515974	River Aln	river in Northumberland, England, UK, flows into the North Sea at Alnmouth	Point(-2.007 55.392)		43851	2657447										https://en.wikipedia.org/wiki/River_Aln
 89100	http://www.wikidata.org/entity/Q1515974	River Aln	river in Northumberland, England, UK, flows into the North Sea at Alnmouth	Point(-1.610403 55.385177)		43851	2657447										https://en.wikipedia.org/wiki/River_Aln
+89100	http://www.wikidata.org/entity/Q1515974	River Aln	river in Northumberland, England, UK, flows into the North Sea at Alnmouth	Point(-2.007 55.392)		43851	2657447										https://en.wikipedia.org/wiki/River_Aln
 89102	http://www.wikidata.org/entity/Q103199574	Watercrook (Samian Ware Discovery Site)	Watercrook as Samian Ware discovery site	Point(-2.748589 54.309425)													
 89102	http://www.wikidata.org/entity/Q18654686	Alavana	Roman fort originally built ca. AD 90 and rebuilt ca. AD 130	Point(-2.74736 54.3081)										14570			https://en.wikipedia.org/wiki/Alavana
 89103	http://www.wikidata.org/entity/Q614840	River Annan	river in Dumfries and Galloway, Scotland, UK, flows into the Solway Firth	Point(-3.264861111 54.968222222)		43854	2657292								315530545		https://en.wikipedia.org/wiki/River_Annan
@@ -14225,8 +14233,8 @@ pleiades	item	itemLabel	itemDescription	coordinates	chronique_ids	dare_ids	geona
 912841	http://www.wikidata.org/entity/Q1392962	Failaka Island	Kuwaiti island	Point(48.333333333 29.433333333)		41328	285638			sh85046881	9746369		294483IIka		315526958		https://en.wikipedia.org/wiki/Failaka_Island
 912843	http://www.wikidata.org/entity/Q1275158	Elymais	Parthian vassal state (147 BC–224 AD)	Point(48.4333 32.3167)						sh2018001939			405500RSus		247719983		https://en.wikipedia.org/wiki/Elymais
 912845	http://www.wikidata.org/entity/Q210065	Eridu	archaeological site in Iraq	Point(45.99583 30.81583)		22334	96834	6001911							315170029		https://en.wikipedia.org/wiki/Eridu
-912849	http://www.wikidata.org/entity/Q34589	Euphrates	river in Asia	Point(40.2569 39.7283)			315147	1123842		sh85045605	10157803		353403WEup		237806341		https://en.wikipedia.org/wiki/Euphrates
 912849	http://www.wikidata.org/entity/Q34589	Euphrates	river in Asia	Point(47.442 31.0043)			315147	1123842		sh85045605	10157803		353403WEup		237806341		https://en.wikipedia.org/wiki/Euphrates
+912849	http://www.wikidata.org/entity/Q34589	Euphrates	river in Asia	Point(40.2569 39.7283)			315147	1123842		sh85045605	10157803		353403WEup		237806341		https://en.wikipedia.org/wiki/Euphrates
 912855	http://www.wikidata.org/entity/Q853946	Girsu	ancient Sumerian city	Point(46.18964 31.56526)											239105299,235140566		https://en.wikipedia.org/wiki/Girsu
 912868	http://www.wikidata.org/entity/Q501259	Isin	ancient city in Mesopotamia	Point(45.28520718 31.93351249)		22331											https://en.wikipedia.org/wiki/Isin
 912871	http://www.wikidata.org/entity/Q283159	Jarahi River	river in Iran	Point(49.055277777 30.431388888)			6648120										https://en.wikipedia.org/wiki/Jarahi_River
@@ -14322,7 +14330,7 @@ pleiades	item	itemLabel	itemDescription	coordinates	chronique_ids	dare_ids	geona
 922693	http://www.wikidata.org/entity/Q230025	Pasargadae	ancient city and archaeological site in Fars Province, Iranian national heritage site	Point(53.179444444 30.2)		22309	121340						302532UPas			11306	https://en.wikipedia.org/wiki/Pasargadae
 922695	http://www.wikidata.org/entity/Q129072	Persepolis	ceremonial capital of the Achaemenid Empire, Iranian national heritage site	Point(52.89 29.935)		22222	110836			n80063345			299529PPer		145742096	2956	https://en.wikipedia.org/wiki/Persepolis
 922698	http://www.wikidata.org/entity/Q3746183	Persis	historical region corresponding to modern Fars province, Iran	Point(52.0 30.0)					2121935		11300807		295540RPer	1704			https://en.wikipedia.org/wiki/Persis
-922701	http://www.wikidata.org/entity/Q5680617	Pulvar River	river in Iran	Point(52.769294923 29.852049226)													
+922701	http://www.wikidata.org/entity/Q5680617	Pulvar River	river in Fars Province, Iran	Point(52.769444444 29.852222222)			114213										
 922704	http://www.wikidata.org/entity/Q558514	Qal'eh Dokhtar	castle in Firuzabad County, Iranian national heritage site	Point(52.530136 28.920997)		22317											https://en.wikipedia.org/wiki/Qal%27eh_Dokhtar
 922706	http://www.wikidata.org/entity/Q4121803	Abu-Nasr Palace	Iranian national heritage site	Point(52.6246 29.5841)													https://en.wikipedia.org/wiki/Qasre_Abunasr
 922740	http://www.wikidata.org/entity/Q477898	Bishapur	ancient city in Kazerun County, Iranian national heritage site	Point(51.570833 29.777778)		22319	140452	6000821								10913	https://en.wikipedia.org/wiki/Bishapur
@@ -14370,6 +14378,7 @@ pleiades	item	itemLabel	itemDescription	coordinates	chronique_ids	dare_ids	geona
 9324677	http://www.wikidata.org/entity/Q17650400	Haltwhistle Burn 1 Roman temporary camp, fortlet and section of the Stanegate	archaeological site in Haltwhistle, Northumberland, England, UK	Point(-2.44808 54.9892)												12682	
 9324677	http://www.wikidata.org/entity/Q17650400	Haltwhistle Burn 1 Roman temporary camp, fortlet and section of the Stanegate	archaeological site in Haltwhistle, Northumberland, England, UK	Point(-2.449591666 54.988136111)												12682	
 932478	http://www.wikidata.org/entity/Q740104	Qal’at al Bahrain	archaeological site in Bahrain	Point(50.520555555 26.233611111)			6942066								315140653		https://en.wikipedia.org/wiki/Qal%27at_al-Bahrain
+932482	http://www.wikidata.org/entity/Q3517362	Tell Abraq	archaeological site in the UAE	Point(55.55 25.4833)													https://en.wikipedia.org/wiki/Tell_Abraq
 932483	http://www.wikidata.org/entity/Q1514721	Gerrha	ancient coastal city of Arabia														https://en.wikipedia.org/wiki/Gerrha
 932485	http://www.wikidata.org/entity/Q3244266	Tylos	name by which ancient Greeks referred to the area of today's Bahrain			41326							262505ITyl				https://en.wikipedia.org/wiki/Tylos
 932949218	http://www.wikidata.org/entity/Q958212	Via Annia	Roman road in Cisalpine Gaul named for a member of the gens Annia												102145857821623020871		https://en.wikipedia.org/wiki/Via_Annia
